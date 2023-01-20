@@ -1,0 +1,22 @@
+{
+  "name": "sandbox-github-actions-pull-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meganii/sandbox-github-actions-pull-request.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meganii/sandbox-github-actions-pull-request/issues"
+  },
+  "homepage": "https://github.com/meganii/sandbox-github-actions-pull-request#readme",
+  "dependencies": {
+    "@ampproject/toolbox-cli": "^2.9.0"
+  }
+}
