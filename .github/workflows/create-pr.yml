@@ -25,17 +25,20 @@ jobs:
       - name: Add date
         run: date >> date.txt
 
+      - name: Run Script
+        run: sh confirmAndUpdateAMPVersion.sh
+
       - name: Add and commit
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -N date.txt
+          git add -N .
           git diff --name-only --exit-code
         continue-on-error: true
     
       - name: Commit files
         run: |
-          git add date.txt
+          git add --all
           git commit -m "Update"
           git push 
 
