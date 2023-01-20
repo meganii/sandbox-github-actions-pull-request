@@ -1,0 +1,4282 @@
+{
+  "experiment %s must have a `cleanupIssue` field.": {
+    "id": "0",
+    "message": "experiment %s must have a `cleanupIssue` field."
+  },
+  "Video.JS not imported or initializer undefined.": {
+    "id": "1",
+    "message": "Video.JS not imported or initializer undefined."
+  },
+  "Invalid method %s.": {
+    "id": "2",
+    "message": "Invalid method %s."
+  },
+  "`listenTo` is meant to be used once per page.": {
+    "id": "3",
+    "message": "`listenTo` is meant to be used once per page."
+  },
+  "listenTo('jwplayer', opt_instance) does not take an initializer.": {
+    "id": "4",
+    "message": "listenTo('jwplayer', opt_instance) does not take an initializer."
+  },
+  "listenTo('videojs', element) expects a second argument": {
+    "id": "5",
+    "message": "listenTo('videojs', element) expects a second argument"
+  },
+  "Invalid listener type [%s].": {
+    "id": "6",
+    "message": "Invalid listener type [%s]."
+  },
+  "listenTo('jwplayer', myjwplayer) takes a jwplayer instance as ": {
+    "id": "7",
+    "message": "listenTo('jwplayer', myjwplayer) takes a jwplayer instance as "
+  },
+  "listenTo('jwplayer') expects a global jwplayer() in window.": {
+    "id": "8",
+    "message": "listenTo('jwplayer') expects a global jwplayer() in window."
+  },
+  "video-iframe-integration-v0.js should only be included once.": {
+    "id": "9",
+    "message": "video-iframe-integration-v0.js should only be included once."
+  },
+  "The sitekey is required for the <amp-recaptcha-input> iframe": {
+    "id": "a",
+    "message": "The sitekey is required for the <amp-recaptcha-input> iframe"
+  },
+  "The global property is required for the <amp-recaptcha-input> iframe": {
+    "id": "b",
+    "message": "The global property is required for the <amp-recaptcha-input> iframe"
+  },
+  "Error processing inabox message": {
+    "id": "c",
+    "message": "Error processing inabox message"
+  },
+  "%s %s must be available": {
+    "id": "d",
+    "message": "%s %s must be available"
+  },
+  "%s %s must start with \"https://\" or \"//\" or be relative and served from either https or from localhost. Invalid value: %s": {
+    "id": "e",
+    "message": "%s %s must start with \"https://\" or \"//\" or be relative and served from either https or from localhost. Invalid value: %s"
+  },
+  "URL must start with \"http://\" or \"https://\". Invalid value: %s": {
+    "id": "f",
+    "message": "URL must start with \"http://\" or \"https://\". Invalid value: %s"
+  },
+  "Unknown path prefix in url %s": {
+    "id": "g",
+    "message": "Unknown path prefix in url %s"
+  },
+  "Expected a . in origin %s": {
+    "id": "h",
+    "message": "Expected a . in origin %s"
+  },
+  "Source origin is not allowed in %s": {
+    "id": "i",
+    "message": "Source origin is not allowed in %s"
+  },
+  "Failed to save experiments to localStorage.": {
+    "id": "j",
+    "message": "Failed to save experiments to localStorage."
+  },
+  "Could not support highestAvailable Domain on proxy origin, specify domain explicitly": {
+    "id": "k",
+    "message": "Could not support highestAvailable Domain on proxy origin, specify domain explicitly"
+  },
+  "Should never attempt to set cookie on proxy origin: %s": {
+    "id": "l",
+    "message": "Should never attempt to set cookie on proxy origin: %s"
+  },
+  "Should never attempt to set cookie on proxy origin. (in depth check): %s": {
+    "id": "m",
+    "message": "Should never attempt to set cookie on proxy origin. (in depth check): %s"
+  },
+  "Element expected": {
+    "id": "n",
+    "message": "Element expected"
+  },
+  "Must provide Component": {
+    "id": "o",
+    "message": "Must provide Component"
+  },
+  "The AMP element cannot be rendered in detached mode when \"props\" are configured with \"children\" property.": {
+    "id": "p",
+    "message": "The AMP element cannot be rendered in detached mode when \"props\" are configured with \"children\" property."
+  },
+  "Inconsistent Bento API shape: imperative API gained a \"%s\" key for %s": {
+    "id": "q",
+    "message": "Inconsistent Bento API shape: imperative API gained a \"%s\" key for %s"
+  },
+  "Inconsistent Bento API shape: imperative API lost a \"%s\" key for %s": {
+    "id": "r",
+    "message": "Inconsistent Bento API shape: imperative API lost a \"%s\" key for %s"
+  },
+  "Double registration %s": {
+    "id": "s",
+    "message": "Double registration %s"
+  },
+  "Unknown 3p: %s": {
+    "id": "t",
+    "message": "Unknown 3p: %s"
+  },
+  "Missing attribute for %s: %s.": {
+    "id": "u",
+    "message": "Missing attribute for %s: %s."
+  },
+  "%s must contain exactly one of attributes: %s.": {
+    "id": "v",
+    "message": "%s must contain exactly one of attributes: %s."
+  },
+  "Passed in document must have a defaultView": {
+    "id": "w",
+    "message": "Passed in document must have a defaultView"
+  },
+  "Extension failed: ": {
+    "id": "x",
+    "message": "Extension failed: "
+  },
+  "E#19457 trackImpressionPromise": {
+    "id": "y",
+    "message": "E#19457 trackImpressionPromise"
+  },
+  "No ampdoc found for": {
+    "id": "z",
+    "message": "No ampdoc found for"
+  },
+  "The shadow root already contains ampdoc": {
+    "id": "A",
+    "message": "The shadow root already contains ampdoc"
+  },
+  "The fie already contains ampdoc": {
+    "id": "B",
+    "message": "The fie already contains ampdoc"
+  },
+  "not implemented": {
+    "id": "C",
+    "message": "not implemented"
+  },
+  "extension already declared %s": {
+    "id": "D",
+    "message": "extension already declared %s"
+  },
+  "body not available": {
+    "id": "E",
+    "message": "body not available"
+  },
+  "Duplicate body": {
+    "id": "F",
+    "message": "Duplicate body"
+  },
+  "Duplicate ready state": {
+    "id": "G",
+    "message": "Duplicate ready state"
+  },
+  "Attempted to store invalid meta name/content pair": {
+    "id": "H",
+    "message": "Attempted to store invalid meta name/content pair"
+  },
+  "The data-gistid attribute is required for <amp-gist> %s": {
+    "id": "I",
+    "message": "The data-gistid attribute is required for <amp-gist> %s"
+  },
+  "Embed type %s not allowed with tag %s": {
+    "id": "J",
+    "message": "Embed type %s not allowed with tag %s"
+  },
+  "Expected configuration to be passed as first argument": {
+    "id": "K",
+    "message": "Expected configuration to be passed as first argument"
+  },
+  "Parent origin mismatch: %s, %s": {
+    "id": "L",
+    "message": "Parent origin mismatch: %s, %s"
+  },
+  "3p type for custom iframe not allowed: %s": {
+    "id": "M",
+    "message": "3p type for custom iframe not allowed: %s"
+  },
+  "The formula attribute is required for <amp-mathml> %s": {
+    "id": "N",
+    "message": "The formula attribute is required for <amp-mathml> %s"
+  },
+  "Fake user error!": {
+    "id": "O",
+    "message": "Fake user error!"
+  },
+  "wrong container": {
+    "id": "P",
+    "message": "wrong container"
+  },
+  "You are using a deprecated Criteo integration": {
+    "id": "Q",
+    "message": "You are using a deprecated Criteo integration"
+  },
+  "You are using an unknown Criteo integration": {
+    "id": "R",
+    "message": "You are using an unknown Criteo integration"
+  },
+  "TagDeliveryContent object not loaded on page": {
+    "id": "S",
+    "message": "TagDeliveryContent object not loaded on page"
+  },
+  "Referrer timeout!": {
+    "id": "T",
+    "message": "Referrer timeout!"
+  },
+  "UACH timeout!": {
+    "id": "U",
+    "message": "UACH timeout!"
+  },
+  "Invalid analytics": {
+    "id": "V",
+    "message": "Invalid analytics"
+  },
+  "%s is already registered. The script tag for %s is likely included twice in the page.": {
+    "id": "W",
+    "message": "%s is already registered. The script tag for %s is likely included twice in the page."
+  },
+  "Cannot navigate to invalid protocol: %s": {
+    "id": "X",
+    "message": "Cannot navigate to invalid protocol: %s"
+  },
+  "Target '%s' not supported.": {
+    "id": "Y",
+    "message": "Target '%s' not supported."
+  },
+  "Unexpected iframe URL change:": {
+    "id": "Z",
+    "message": "Unexpected iframe URL change:"
+  },
+  "First Contentful Paint not supported": {
+    "id": "10",
+    "message": "First Contentful Paint not supported"
+  },
+  "Cumulative Layout Shift not supported": {
+    "id": "11",
+    "message": "Cumulative Layout Shift not supported"
+  },
+  "First Input Delay not supported": {
+    "id": "12",
+    "message": "First Input Delay not supported"
+  },
+  "Largest Contentful Paint not supported": {
+    "id": "13",
+    "message": "Largest Contentful Paint not supported"
+  },
+  "You may not set both opt_delta and opt_value.": {
+    "id": "14",
+    "message": "You may not set both opt_delta and opt_value."
+  },
+  "Parent frame must supply vendor name as type in %s": {
+    "id": "15",
+    "message": "Parent frame must supply vendor name as type in %s"
+  },
+  "Vendor name cannot be empty in %s": {
+    "id": "16",
+    "message": "Vendor name cannot be empty in %s"
+  },
+  "Invalid/missing sentinel on iframe name attribute%s": {
+    "id": "17",
+    "message": "Invalid/missing sentinel on iframe name attribute%s"
+  },
+  "Received malformed events list in %s": {
+    "id": "18",
+    "message": "Received malformed events list in %s"
+  },
+  "Received empty events list in %s": {
+    "id": "19",
+    "message": "Received empty events list in %s"
+  },
+  "Received malformed event in %s": {
+    "id": "1a",
+    "message": "Received malformed event in %s"
+  },
+  "Exception in callback passed to onAnalyticsEvent": {
+    "id": "1b",
+    "message": "Exception in callback passed to onAnalyticsEvent"
+  },
+  "Must implement onNewContextInstance in %s": {
+    "id": "1c",
+    "message": "Must implement onNewContextInstance in %s"
+  },
+  "Should not construct AbstractAmpContext instances directly": {
+    "id": "1d",
+    "message": "Should not construct AbstractAmpContext instances directly"
+  },
+  "Could not setup metadata.": {
+    "id": "1e",
+    "message": "Could not setup metadata."
+  },
+  "Incorrect sentinel format": {
+    "id": "1f",
+    "message": "Incorrect sentinel format"
+  },
+  "Unknown HTTP status %s": {
+    "id": "1g",
+    "message": "Unknown HTTP status %s"
+  },
+  "Network failure": {
+    "id": "1h",
+    "message": "Network failure"
+  },
+  "Request aborted": {
+    "id": "1i",
+    "message": "Request aborted"
+  },
+  "CORS is not supported": {
+    "id": "1j",
+    "message": "CORS is not supported"
+  },
+  "Body already used": {
+    "id": "1k",
+    "message": "Body already used"
+  },
+  "Only one of %s is currently allowed. Got %s": {
+    "id": "1l",
+    "message": "Only one of %s is currently allowed. Got %s"
+  },
+  "Expected service %s to be registered": {
+    "id": "1m",
+    "message": "Expected service %s to be registered"
+  },
+  "Service %s registered without ctor nor impl.": {
+    "id": "1n",
+    "message": "Service %s registered without ctor nor impl."
+  },
+  "Service %s registered without context.": {
+    "id": "1o",
+    "message": "Service %s registered without context."
+  },
+  "Service %s constructed to null.": {
+    "id": "1p",
+    "message": "Service %s constructed to null."
+  },
+  "required to implement Disposable": {
+    "id": "1q",
+    "message": "required to implement Disposable"
+  },
+  "failed to dispose service": {
+    "id": "1r",
+    "message": "failed to dispose service"
+  },
+  "Expected \"%s\" to be a CSS name composed of alphanumerics and hyphens.": {
+    "id": "1s",
+    "message": "Expected \"%s\" to be a CSS name composed of alphanumerics and hyphens."
+  },
+  "Invalid length value: %s": {
+    "id": "1t",
+    "message": "Invalid length value: %s"
+  },
+  "Invalid length or percent value: %s": {
+    "id": "1u",
+    "message": "Invalid length or percent value: %s"
+  },
+  "Failed to read units from %s": {
+    "id": "1v",
+    "message": "Failed to read units from %s"
+  },
+  "JSON missing in %s": {
+    "id": "1w",
+    "message": "JSON missing in %s"
+  },
+  "only iframes with src supported": {
+    "id": "1x",
+    "message": "only iframes with src supported"
+  },
+  "cannot register events on an attached iframe. It will cause hair-pulling bugs like #2942": {
+    "id": "1y",
+    "message": "cannot register events on an attached iframe. It will cause hair-pulling bugs like #2942"
+  },
+  "Failed to open url on target: ": {
+    "id": "1z",
+    "message": "Failed to open url on target: "
+  },
+  "Initial display value must not be \"none\". Use toggle instead.": {
+    "id": "1A",
+    "message": "Initial display value must not be \"none\". Use toggle instead."
+  },
+  "setInitialDisplay MUST NOT be used for resetting the display style. If you are looking for display:none toggling, use toggle instead.": {
+    "id": "1B",
+    "message": "setInitialDisplay MUST NOT be used for resetting the display style. If you are looking for display:none toggling, use toggle instead."
+  },
+  "%s: invalid \"referrerpolicy\" value \"%s\". Only \"no-referrer\" is supported": {
+    "id": "1C",
+    "message": "%s: invalid \"referrerpolicy\" value \"%s\". Only \"no-referrer\" is supported"
+  },
+  "duplicate pixel": {
+    "id": "1D",
+    "message": "duplicate pixel"
+  },
+  "The <amp-pixel> src attribute must start with \"https://\" or \"//\". Invalid value: %s": {
+    "id": "1E",
+    "message": "The <amp-pixel> src attribute must start with \"https://\" or \"//\". Invalid value: %s"
+  },
+  "AMP-BIND is not installed.": {
+    "id": "1F",
+    "message": "AMP-BIND is not installed."
+  },
+  "AMP.scrollTo must provide element ID": {
+    "id": "1G",
+    "message": "AMP.scrollTo must provide element ID"
+  },
+  "scrollTo element ID must exist on page": {
+    "id": "1H",
+    "message": "scrollTo element ID must exist on page"
+  },
+  "Failed to opt out of CID": {
+    "id": "1I",
+    "message": "Failed to opt out of CID"
+  },
+  "Unknown AMP action ": {
+    "id": "1J",
+    "message": "Unknown AMP action "
+  },
+  "Argument 'class' must be a string.": {
+    "id": "1K",
+    "message": "Argument 'class' must be a string."
+  },
+  "Optional argument 'force' must be a boolean.": {
+    "id": "1L",
+    "message": "Optional argument 'force' must be a boolean."
+  },
+  "Only boolean values accepted": {
+    "id": "1M",
+    "message": "Only boolean values accepted"
+  },
+  "Failed to load store: ": {
+    "id": "1N",
+    "message": "Failed to load store: "
+  },
+  "Name is not allowed: %s": {
+    "id": "1O",
+    "message": "Name is not allowed: %s"
+  },
+  "Invalid trust for '%s': %s": {
+    "id": "1P",
+    "message": "Invalid trust for '%s': %s"
+  },
+  "\"%s\" event with \"%s\" trust is not allowed to invoke \"%s.%s\".": {
+    "id": "1Q",
+    "message": "\"%s\" event with \"%s\" trust is not allowed to invoke \"%s.%s\"."
+  },
+  "AMP or special element expected: %s": {
+    "id": "1R",
+    "message": "AMP or special element expected: %s"
+  },
+  "Action handler already installed for %s": {
+    "id": "1S",
+    "message": "Action handler already installed for %s"
+  },
+  "Action execution failed:": {
+    "id": "1T",
+    "message": "Action execution failed:"
+  },
+  "Action allowlist entries should be of shape { tagOrTarget: string, method: string }": {
+    "id": "1U",
+    "message": "Action allowlist entries should be of shape { tagOrTarget: string, method: string }"
+  },
+  "[%s] %s": {
+    "id": "1V",
+    "message": "[%s] %s"
+  },
+  "Deferred events cannot access native event functions.": {
+    "id": "1W",
+    "message": "Deferred events cannot access native event functions."
+  },
+  "Invalid action definition in %s: [%s] %s": {
+    "id": "1X",
+    "message": "Invalid action definition in %s: [%s] %s"
+  },
+  "Template not found for %s": {
+    "id": "1Y",
+    "message": "Template not found for %s"
+  },
+  "Template must be defined in a <template> or <script type=\"text/plain\"> tag": {
+    "id": "1Z",
+    "message": "Template must be defined in a <template> or <script type=\"text/plain\"> tag"
+  },
+  "Type must be specified: %s": {
+    "id": "20",
+    "message": "Type must be specified: %s"
+  },
+  "Duplicate template type: %s": {
+    "id": "21",
+    "message": "Duplicate template type: %s"
+  },
+  "The CID scope and cookie name must only use the characters [a-zA-Z0-9-_.]+\nInstead found: %s": {
+    "id": "22",
+    "message": "The CID scope and cookie name must only use the characters [a-zA-Z0-9-_.]+\nInstead found: %s"
+  },
+  "Expected proxy origin %s": {
+    "id": "23",
+    "message": "Expected proxy origin %s"
+  },
+  "Viewer does not provide cap=cid": {
+    "id": "24",
+    "message": "Viewer does not provide cap=cid"
+  },
+  "invalid cid format": {
+    "id": "25",
+    "message": "invalid cid format"
+  },
+  "target should start with a #": {
+    "id": "26",
+    "message": "target should start with a #"
+  },
+  "failed to execute a task:": {
+    "id": "27",
+    "message": "failed to execute a task:"
+  },
+  "pushState failed: %s": {
+    "id": "28",
+    "message": "pushState failed: %s"
+  },
+  "replaceState failed: %s": {
+    "id": "29",
+    "message": "replaceState failed: %s"
+  },
+  "Initial replaceState failed: %s": {
+    "id": "2a",
+    "message": "Initial replaceState failed: %s"
+  },
+  "The history must not be in the waiting state": {
+    "id": "2b",
+    "message": "The history must not be in the waiting state"
+  },
+  "collapse attempt denied": {
+    "id": "2c",
+    "message": "collapse attempt denied"
+  },
+  "attempting to change size with undefined dimensions": {
+    "id": "2d",
+    "message": "attempting to change size with undefined dimensions"
+  },
+  "The value passed to AMP_GEO() is not valid name:%s": {
+    "id": "2e",
+    "message": "The value passed to AMP_GEO() is not valid name:%s"
+  },
+  "The first argument to CLIENT_ID, the fallback Cookie name, is required": {
+    "id": "2f",
+    "message": "The first argument to CLIENT_ID, the fallback Cookie name, is required"
+  },
+  "non-string cid, what is it?": {
+    "id": "2g",
+    "message": "non-string cid, what is it?"
+  },
+  "The value passed to VARIANT() is not a valid experiment in <amp-experiment>:%s": {
+    "id": "2h",
+    "message": "The value passed to VARIANT() is not a valid experiment in <amp-experiment>:%s"
+  },
+  "The first argument to AUTHDATA, the field, is required": {
+    "id": "2i",
+    "message": "The first argument to AUTHDATA, the field, is required"
+  },
+  "The first argument to NAV_TIMING, the start attribute name, is required": {
+    "id": "2j",
+    "message": "The first argument to NAV_TIMING, the start attribute name, is required"
+  },
+  "Access or subsciptions service is not installed to access: ": {
+    "id": "2k",
+    "message": "Access or subsciptions service is not installed to access: "
+  },
+  "The first argument to QUERY_PARAM, the query string param is required": {
+    "id": "2l",
+    "message": "The first argument to QUERY_PARAM, the query string param is required"
+  },
+  "The first argument to FRAGMENT_PARAM, the fragment string param is required": {
+    "id": "2m",
+    "message": "The first argument to FRAGMENT_PARAM, the fragment string param is required"
+  },
+  "param should be a string": {
+    "id": "2n",
+    "message": "param should be a string"
+  },
+  "To use variable %s, amp-experiment should be configured": {
+    "id": "2o",
+    "message": "To use variable %s, amp-experiment should be configured"
+  },
+  "To use variable %s, amp-geo should be configured": {
+    "id": "2p",
+    "message": "To use variable %s, amp-geo should be configured"
+  },
+  "Input value expansion only works on hidden input fields: %s": {
+    "id": "2q",
+    "message": "Input value expansion only works on hidden input fields: %s"
+  },
+  "Illegal replacement of the protocol: ": {
+    "id": "2r",
+    "message": "Illegal replacement of the protocol: "
+  },
+  "The replacement url has invalid protocol: %s": {
+    "id": "2s",
+    "message": "The replacement url has invalid protocol: %s"
+  },
+  "Untrusted viewer referrer override: %s at %s": {
+    "id": "2t",
+    "message": "Untrusted viewer referrer override: %s at %s"
+  },
+  "Untrusted viewer url override: %s at %s": {
+    "id": "2u",
+    "message": "Untrusted viewer url override: %s at %s"
+  },
+  "replaceUrl failed": {
+    "id": "2v",
+    "message": "replaceUrl failed"
+  },
+  "Received user action in non-visible doc": {
+    "id": "2w",
+    "message": "Received user action in non-visible doc"
+  },
+  "Not ready for layout: %s (%s)": {
+    "id": "2x",
+    "message": "Not ready for layout: %s (%s)"
+  },
+  "viewport has zero dimensions": {
+    "id": "2y",
+    "message": "viewport has zero dimensions"
+  },
+  "Curve without duration doesn't make sense.": {
+    "id": "2z",
+    "message": "Curve without duration doesn't make sense."
+  },
+  "Lightbox mode for A4A is only available when 'amp-lightbox-a4a-proto' experiment is on": {
+    "id": "2A",
+    "message": "Lightbox mode for A4A is only available when 'amp-lightbox-a4a-proto' experiment is on"
+  },
+  "callback returned a value but vsync cannot propogate it: %s": {
+    "id": "2B",
+    "message": "callback returned a value but vsync cannot propogate it: %s"
+  },
+  "Illegal input name, %s found: %s": {
+    "id": "2C",
+    "message": "Illegal input name, %s found: %s"
+  },
+  "form action-xhr should not be on AMP CDN: %s": {
+    "id": "2D",
+    "message": "form action-xhr should not be on AMP CDN: %s"
+  },
+  "form action should not be on AMP CDN: %s": {
+    "id": "2E",
+    "message": "form action should not be on AMP CDN: %s"
+  },
+  "form action-xhr or action attribute is required for method=GET: %s": {
+    "id": "2F",
+    "message": "form action-xhr or action attribute is required for method=GET: %s"
+  },
+  "action attribute is invalid for method=POST: %s": {
+    "id": "2G",
+    "message": "action attribute is invalid for method=POST: %s"
+  },
+  "Only XHR based (via action-xhr attribute) submissions are support for POST requests. %s": {
+    "id": "2H",
+    "message": "Only XHR based (via action-xhr attribute) submissions are support for POST requests. %s"
+  },
+  "form target=%s is invalid can only be _blank or _top: %s": {
+    "id": "2I",
+    "message": "form target=%s is invalid can only be _blank or _top: %s"
+  },
+  "SubtleCrypto failed, fallback to closure lib.": {
+    "id": "2J",
+    "message": "SubtleCrypto failed, fallback to closure lib."
+  },
+  "Waited over 16s to load extension %s.": {
+    "id": "2K",
+    "message": "Waited over 16s to load extension %s."
+  },
+  "Element not found: %s": {
+    "id": "2L",
+    "message": "Element not found: %s"
+  },
+  "unknown extension for ": {
+    "id": "2M",
+    "message": "unknown extension for "
+  },
+  "Default action \"%s\" already registered.": {
+    "id": "2N",
+    "message": "Default action \"%s\" already registered."
+  },
+  "Method not found: %s in %s": {
+    "id": "2O",
+    "message": "Method not found: %s in %s"
+  },
+  "- unknown script: ": {
+    "id": "2P",
+    "message": "- unknown script: "
+  },
+  "- unallowed inline javascript: ": {
+    "id": "2Q",
+    "message": "- unallowed inline javascript: "
+  },
+  "- UNKNOWN head element:": {
+    "id": "2R",
+    "message": "- UNKNOWN head element:"
+  },
+  "Not available.": {
+    "id": "2S",
+    "message": "Not available."
+  },
+  "Improper html template tag usage.": {
+    "id": "2T",
+    "message": "Improper html template tag usage."
+  },
+  "Invalid template strings array": {
+    "id": "2U",
+    "message": "Invalid template strings array"
+  },
+  "No elements in template": {
+    "id": "2V",
+    "message": "No elements in template"
+  },
+  "Too many root elements in template": {
+    "id": "2W",
+    "message": "Too many root elements in template"
+  },
+  "Empty ref attr": {
+    "id": "2X",
+    "message": "Empty ref attr"
+  },
+  "Duplicate ref": {
+    "id": "2Y",
+    "message": "Duplicate ref"
+  },
+  "The use of doubleclick.js has been deprecated. Please switch to Fast Fetch. See documentation here: https://github.com/ampproject/amphtml/issues/11834": {
+    "id": "2Z",
+    "message": "The use of doubleclick.js has been deprecated. Please switch to Fast Fetch. See documentation here: https://github.com/ampproject/amphtml/issues/11834"
+  },
+  "Invalid multi-size data format '%s'.": {
+    "id": "30",
+    "message": "Invalid multi-size data format '%s'."
+  },
+  "element is not AmpElement": {
+    "id": "31",
+    "message": "element is not AmpElement"
+  },
+  "waitForEvent not supported %s": {
+    "id": "32",
+    "message": "waitForEvent not supported %s"
+  },
+  "Service %s was requested to be provided through %s, but %s is not loaded in the current page. To fix this problem load the JavaScript file for %s in this page.": {
+    "id": "33",
+    "message": "Service %s was requested to be provided through %s, but %s is not loaded in the current page. To fix this problem load the JavaScript file for %s in this page."
+  },
+  "no ampdoc yet, since element is not attached": {
+    "id": "34",
+    "message": "no ampdoc yet, since element is not attached"
+  },
+  "no resources yet, since element is not attached": {
+    "id": "35",
+    "message": "no resources yet, since element is not attached"
+  },
+  "The element did not specify a layout attribute. Check https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/control_layout and the respective element documentation for details.": {
+    "id": "36",
+    "message": "The element did not specify a layout attribute. Check https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/control_layout and the respective element documentation for details."
+  },
+  "Layout not supported: %s": {
+    "id": "37",
+    "message": "Layout not supported: %s"
+  },
+  "Cannot get default action alias of unupgraded element": {
+    "id": "38",
+    "message": "Cannot get default action alias of unupgraded element"
+  },
+  "Cannot build unupgraded element": {
+    "id": "39",
+    "message": "Cannot build unupgraded element"
+  },
+  "Implementation must not be a stub": {
+    "id": "3a",
+    "message": "Implementation must not be a stub"
+  },
+  "Must be built to receive viewport events": {
+    "id": "3b",
+    "message": "Must be built to receive viewport events"
+  },
+  "Must never be called in template": {
+    "id": "3c",
+    "message": "Must never be called in template"
+  },
+  "Characters must be in range [0,255]": {
+    "id": "3d",
+    "message": "Characters must be in range [0,255]"
+  },
+  "Host should send targetRect": {
+    "id": "3e",
+    "message": "Host should send targetRect"
+  },
+  "Both CTA Type & CTA Url are required in ad response.": {
+    "id": "3f",
+    "message": "Both CTA Type & CTA Url are required in ad response."
+  },
+  "Attribute type required for <amp-ad>: %s": {
+    "id": "3g",
+    "message": "Attribute type required for <amp-ad>: %s"
+  },
+  "Parent element must be in DOM": {
+    "id": "3h",
+    "message": "Parent element must be in DOM"
+  },
+  "Error parsing JSON in json attribute in element %s": {
+    "id": "3i",
+    "message": "Error parsing JSON in json attribute in element %s"
+  },
+  "3p iframe url must not include query string %s in element %s.": {
+    "id": "3j",
+    "message": "3p iframe url must not include query string %s in element %s."
+  },
+  "3p iframe url must not be on the same origin as the current document %s (%s) in element %s. See https://github.com/ampproject/amphtml/blob/main/docs/spec/amp-iframe-origin-policy.md for details.": {
+    "id": "3k",
+    "message": "3p iframe url must not be on the same origin as the current document %s (%s) in element %s. See https://github.com/ampproject/amphtml/blob/main/docs/spec/amp-iframe-origin-policy.md for details."
+  },
+  "Missing resource prop on %s": {
+    "id": "3l",
+    "message": "Missing resource prop on %s"
+  },
+  "Owner must contain the element": {
+    "id": "3m",
+    "message": "Owner must contain the element"
+  },
+  "failed to build:": {
+    "id": "3n",
+    "message": "failed to build:"
+  },
+  "Not ready to start layout: %s (%s)": {
+    "id": "3o",
+    "message": "Not ready to start layout: %s (%s)"
+  },
+  "Not displayed for layout: %s": {
+    "id": "3p",
+    "message": "Not displayed for layout: %s"
+  },
+  "startLayout called but not LAYOUT_SCHEDULED": {
+    "id": "3q",
+    "message": "startLayout called but not LAYOUT_SCHEDULED"
+  },
+  "layoutComplete race": {
+    "id": "3r",
+    "message": "layoutComplete race"
+  },
+  "Unsupported referrerPolicy: %s": {
+    "id": "3s",
+    "message": "Unsupported referrerPolicy: %s"
+  },
+  "ignoring async replacement key: ": {
+    "id": "3t",
+    "message": "ignoring async replacement key: "
+  },
+  "ignoring async macro resolution": {
+    "id": "3u",
+    "message": "ignoring async macro resolution"
+  },
+  "Task already enqueued: %s": {
+    "id": "3v",
+    "message": "Task already enqueued: %s"
+  },
+  "cannot define a duplicate transition callback": {
+    "id": "3w",
+    "message": "cannot define a duplicate transition callback"
+  },
+  "Minimum value is greater than the maximum.": {
+    "id": "3x",
+    "message": "Minimum value is greater than the maximum."
+  },
+  "Lower bound is greater than the upper bound.": {
+    "id": "3y",
+    "message": "Lower bound is greater than the upper bound."
+  },
+  "completion failed: %s": {
+    "id": "3z",
+    "message": "completion failed: %s"
+  },
+  "step curve failed: %s": {
+    "id": "3A",
+    "message": "step curve failed: %s"
+  },
+  "step mutate failed: %s": {
+    "id": "3B",
+    "message": "step mutate failed: %s"
+  },
+  "body is not available": {
+    "id": "3C",
+    "message": "body is not available"
+  },
+  "Object expected: %s": {
+    "id": "3D",
+    "message": "Object expected: %s"
+  },
+  "Only URL supported: %s": {
+    "id": "3E",
+    "message": "Only URL supported: %s"
+  },
+  "Only credentials=include|omit support: %s": {
+    "id": "3F",
+    "message": "Only credentials=include|omit support: %s"
+  },
+  "fetch `body` can not be `null`": {
+    "id": "3G",
+    "message": "fetch `body` can not be `null`"
+  },
+  "body must be of type object or array. %s": {
+    "id": "3H",
+    "message": "body must be of type object or array. %s"
+  },
+  "HTTP error %s": {
+    "id": "3I",
+    "message": "HTTP error %s"
+  },
+  "Invalid \"layout\" value: %s, %s": {
+    "id": "3J",
+    "message": "Invalid \"layout\" value: %s, %s"
+  },
+  "Invalid \"width\" value: %s, %s": {
+    "id": "3K",
+    "message": "Invalid \"width\" value: %s, %s"
+  },
+  "Invalid \"height\" value: %s, %s": {
+    "id": "3L",
+    "message": "Invalid \"height\" value: %s, %s"
+  },
+  "The \"height\" attribute is missing: %s": {
+    "id": "3M",
+    "message": "The \"height\" attribute is missing: %s"
+  },
+  "The \"width\" attribute must be missing or \"auto\": %s": {
+    "id": "3N",
+    "message": "The \"width\" attribute must be missing or \"auto\": %s"
+  },
+  "The \"width\" attribute must be present and not \"auto\": %s": {
+    "id": "3O",
+    "message": "The \"width\" attribute must be present and not \"auto\": %s"
+  },
+  "Length units should be the same for \"width\" and \"height\": %s, %s, %s": {
+    "id": "3P",
+    "message": "Length units should be the same for \"width\" and \"height\": %s, %s, %s"
+  },
+  "\"heights\" attribute must be missing: %s": {
+    "id": "3Q",
+    "message": "\"heights\" attribute must be missing: %s"
+  },
+  "getRGBFromCssColorValue expects a parameter in the form of 'rgba(0, 0, 0, 1)' or 'rgb(0, 0, 0)' but got %s": {
+    "id": "3R",
+    "message": "getRGBFromCssColorValue expects a parameter in the form of 'rgba(0, 0, 0, 1)' or 'rgb(0, 0, 0)' but got %s"
+  },
+  "Unsupported protocol for URL %s": {
+    "id": "3S",
+    "message": "Unsupported protocol for URL %s"
+  },
+  "Cannot switch away from UIType_Enum.VERTICAL": {
+    "id": "3T",
+    "message": "Cannot switch away from UIType_Enum.VERTICAL"
+  },
+  "Unknown action %s.": {
+    "id": "3U",
+    "message": "Unknown action %s."
+  },
+  "Unknown state %s.": {
+    "id": "3V",
+    "message": "Unknown state %s."
+  },
+  "Can't subscribe to unknown state %s.": {
+    "id": "3W",
+    "message": "Can't subscribe to unknown state %s."
+  },
+  "No longer available. Use `amp-carousel` with `type=\"slides\"` for an alternative": {
+    "id": "3X",
+    "message": "No longer available. Use `amp-carousel` with `type=\"slides\"` for an alternative"
+  },
+  "setModelRotation failed: %s": {
+    "id": "3Y",
+    "message": "setModelRotation failed: %s"
+  },
+  "The data-id attribute is required for <amp-3q-player> %s": {
+    "id": "3Z",
+    "message": "The data-id attribute is required for <amp-3q-player> %s"
+  },
+  "Variable argument name \"%s\" is not defined in %s": {
+    "id": "40",
+    "message": "Variable argument name \"%s\" is not defined in %s"
+  },
+  "Action macro with ID \"%s\" cannot reference itself or macros defined after it": {
+    "id": "41",
+    "message": "Action macro with ID \"%s\" cannot reference itself or macros defined after it"
+  },
+  "Invalid network configuration: no request URL specified": {
+    "id": "42",
+    "message": "Invalid network configuration: no request URL specified"
+  },
+  "Expected data-r attribte on amp-ad tag": {
+    "id": "43",
+    "message": "Expected data-r attribte on amp-ad tag"
+  },
+  "The Dianomi request parameter ID provided is invalid": {
+    "id": "44",
+    "message": "The Dianomi request parameter ID provided is invalid"
+  },
+  "The Dianomi %s parameter '%s' is not a valid input": {
+    "id": "45",
+    "message": "The Dianomi %s parameter '%s' is not a valid input"
+  },
+  "Attempting to expand fluid creative without a properly set up friendly frame. Slot id: %s": {
+    "id": "46",
+    "message": "Attempting to expand fluid creative without a properly set up friendly frame. Slot id: %s"
+  },
+  "Attempted to expand slot without flexible ad slot data.": {
+    "id": "47",
+    "message": "Attempted to expand slot without flexible ad slot data."
+  },
+  "this.getCreativeSize returned null": {
+    "id": "48",
+    "message": "this.getCreativeSize returned null"
+  },
+  "ad URL does not exist yet": {
+    "id": "49",
+    "message": "ad URL does not exist yet"
+  },
+  "expected global \"bento\" or specific \"bento-audio\" experiment to be enabled": {
+    "id": "4a",
+    "message": "expected global \"bento\" or specific \"bento-audio\" experiment to be enabled"
+  },
+  "Attribute src or srcdoc required for <amp-ad type=\"fake\">: %s": {
+    "id": "4b",
+    "message": "Attribute src or srcdoc required for <amp-ad type=\"fake\">: %s"
+  },
+  "The data-videoid attribute is required for <amp-dailymotion> %s": {
+    "id": "4c",
+    "message": "The data-videoid attribute is required for <amp-dailymotion> %s"
+  },
+  "The data-partner attribute is required for <amp-brid-player> %s": {
+    "id": "4d",
+    "message": "The data-partner attribute is required for <amp-brid-player> %s"
+  },
+  "The data-player attribute is required for <amp-brid-player> %s": {
+    "id": "4e",
+    "message": "The data-player attribute is required for <amp-brid-player> %s"
+  },
+  "Either the data-video, data-playlist, data-carousel or data-outstream attributes must be specified for <amp-brid-player> %s": {
+    "id": "4f",
+    "message": "Either the data-video, data-playlist, data-carousel or data-outstream attributes must be specified for <amp-brid-player> %s"
+  },
+  "Invalid date: %s": {
+    "id": "4g",
+    "message": "Invalid date: %s"
+  },
+  "One of datetime, timestamp-ms, or timestamp-seconds is required": {
+    "id": "4h",
+    "message": "One of datetime, timestamp-ms, or timestamp-seconds is required"
+  },
+  "localeOptions": {
+    "id": "4i",
+    "message": "localeOptions"
+  },
+  "The data-account attribute is required for <amp-brightcove> %s": {
+    "id": "4j",
+    "message": "The data-account attribute is required for <amp-brightcove> %s"
+  },
+  "One of end-date, timeleft-ms, timestamp-ms, timestamp-seconds is required": {
+    "id": "4k",
+    "message": "One of end-date, timeleft-ms, timestamp-ms, timestamp-seconds is required"
+  },
+  "Invalid locale %s, return empty locale word": {
+    "id": "4l",
+    "message": "Invalid locale %s, return empty locale word"
+  },
+  "Missing type attribute": {
+    "id": "4m",
+    "message": "Missing type attribute"
+  },
+  "No AdNetworkConfig for type: %s": {
+    "id": "4n",
+    "message": "No AdNetworkConfig for type: %s"
+  },
+  "The data-player-id attribute is required for <amp-connatix-player> %s": {
+    "id": "4o",
+    "message": "The data-player-id attribute is required for <amp-connatix-player> %s"
+  },
+  "GEONOTPATCHED: amp-geo served unpatched, ISO country not set": {
+    "id": "4p",
+    "message": "GEONOTPATCHED: amp-geo served unpatched, ISO country not set"
+  },
+  "GEONOTPATCHED: amp-geo served unpatched and API response not valid, ISO country not set": {
+    "id": "4q",
+    "message": "GEONOTPATCHED: amp-geo served unpatched and API response not valid, ISO country not set"
+  },
+  "geoApiUrl must be a string URL": {
+    "id": "4r",
+    "message": "geoApiUrl must be a string URL"
+  },
+  "geoApiUrl must be secure (https)": {
+    "id": "4s",
+    "message": "geoApiUrl must be secure (https)"
+  },
+  "Invalid API response, expected schema not matched for property \"country\"": {
+    "id": "4t",
+    "message": "Invalid API response, expected schema not matched for property \"country\""
+  },
+  "XHR country request failed": {
+    "id": "4u",
+    "message": "XHR country request failed"
+  },
+  " country %s not valid, will be ignored": {
+    "id": "4v",
+    "message": " country %s not valid, will be ignored"
+  },
+  "<amp-experiment> should contain exactly one <script type=\"application/json\"> child.": {
+    "id": "4w",
+    "message": "<amp-experiment> should contain exactly one <script type=\"application/json\"> child."
+  },
+  "Experiment amp-experiment-1.0 is not enabled.": {
+    "id": "4x",
+    "message": "Experiment amp-experiment-1.0 is not enabled."
+  },
+  "Attribute data-embed-as for <amp-facebook> value is wrong, should be \"post\" or \"video\" but was: %s": {
+    "id": "4y",
+    "message": "Attribute data-embed-as for <amp-facebook> value is wrong, should be \"post\" or \"video\" but was: %s"
+  },
+  "The font-family attribute is required for <amp-font> %s": {
+    "id": "4z",
+    "message": "The font-family attribute is required for <amp-font> %s"
+  },
+  "The data-gfyid attribute is required for <amp-gfycat> %s": {
+    "id": "4A",
+    "message": "The data-gfyid attribute is required for <amp-gfycat> %s"
+  },
+  "The src attribute is required for <amp-google-document-embed> %s": {
+    "id": "4B",
+    "message": "The src attribute is required for <amp-google-document-embed> %s"
+  },
+  "The data-imgur-id attribute is required for <amp-imgur> %s": {
+    "id": "4C",
+    "message": "The data-imgur-id attribute is required for <amp-imgur> %s"
+  },
+  "Failed to load. Is \"%s\" a correct id?": {
+    "id": "4D",
+    "message": "Failed to load. Is \"%s\" a correct id?"
+  },
+  "Invalid <amp-iframe> src. Must start with https://. Found %s": {
+    "id": "4E",
+    "message": "Invalid <amp-iframe> src. Must start with https://. Found %s"
+  },
+  "Origin of <amp-iframe> must not be equal to container %s if allow-same-origin is set. See https://github.com/ampproject/amphtml/blob/main/docs/spec/amp-iframe-origin-policy.md for details.": {
+    "id": "4F",
+    "message": "Origin of <amp-iframe> must not be equal to container %s if allow-same-origin is set. See https://github.com/ampproject/amphtml/blob/main/docs/spec/amp-iframe-origin-policy.md for details."
+  },
+  "amp-iframe does not allow embedding of frames from ampproject.*: %s": {
+    "id": "4G",
+    "message": "amp-iframe does not allow embedding of frames from ampproject.*: %s"
+  },
+  "<amp-iframe> elements must be positioned outside the first 75% of the viewport or 600px from the top (whichever is smaller): %s  Current position %s. Min: %sPositioning rules don't apply for iframes that use `placeholder`.See https://github.com/ampproject/amphtml/blob/main/extensions/amp-iframe/amp-iframe.md#iframe-with-placeholder for details.": {
+    "id": "4H",
+    "message": "<amp-iframe> elements must be positioned outside the first 75% of the viewport or 600px from the top (whichever is smaller): %s  Current position %s. Min: %sPositioning rules don't apply for iframes that use `placeholder`.See https://github.com/ampproject/amphtml/blob/main/extensions/amp-iframe/amp-iframe.md#iframe-with-placeholder for details."
+  },
+  "allow-same-origin is not allowed with the srcdoc attribute %s.": {
+    "id": "4I",
+    "message": "allow-same-origin is not allowed with the srcdoc attribute %s."
+  },
+  "amp-iframe is not used for displaying fixed ad. Please use amp-sticky-ad and amp-ad instead.": {
+    "id": "4J",
+    "message": "amp-iframe is not used for displaying fixed ad. Please use amp-sticky-ad and amp-ad instead."
+  },
+  "Overflow element must be defined for resizable frames: %s": {
+    "id": "4K",
+    "message": "Overflow element must be defined for resizable frames: %s"
+  },
+  "\"AMP.navigateTo\" is only allowed on <amp-iframe> when its \"sandbox\" attribute contains \"allow-top-navigation\".": {
+    "id": "4L",
+    "message": "\"AMP.navigateTo\" is only allowed on <amp-iframe> when its \"sandbox\" attribute contains \"allow-top-navigation\"."
+  },
+  "\"postMessage\" action is only allowed with \"src\"attribute with an origin.": {
+    "id": "4M",
+    "message": "\"postMessage\" action is only allowed with \"src\"attribute with an origin."
+  },
+  "\"message\" received from unexpected origin: %s. Only allowed from: %s": {
+    "id": "4N",
+    "message": "\"message\" received from unexpected origin: %s. Only allowed from: %s"
+  },
+  "\"message\" event may only be triggered from a user gesture.": {
+    "id": "4O",
+    "message": "\"message\" event may only be triggered from a user gesture."
+  },
+  "Too many non-gesture-triggered \"message\" events; detaching event listener.": {
+    "id": "4P",
+    "message": "Too many non-gesture-triggered \"message\" events; detaching event listener."
+  },
+  "Data from \"message\" event must be JSON.": {
+    "id": "4Q",
+    "message": "Data from \"message\" event must be JSON."
+  },
+  "data-iframe-src (%s) should be a URL on the same origin as the source (%s) or canonical URL (%s) of the AMP-document.": {
+    "id": "4R",
+    "message": "data-iframe-src (%s) should be a URL on the same origin as the source (%s) or canonical URL (%s) of the AMP-document."
+  },
+  "Both, \"%s\" and \"%s\" must be specified for url-rewrite": {
+    "id": "4S",
+    "message": "Both, \"%s\" and \"%s\" must be specified for url-rewrite"
+  },
+  "Invalid \"data-no-service-worker-fallback-url-match\" expression": {
+    "id": "4T",
+    "message": "Invalid \"data-no-service-worker-fallback-url-match\" expression"
+  },
+  "Shell source origin \"%s\" must be the same as source origin \"%s\"": {
+    "id": "4U",
+    "message": "Shell source origin \"%s\" must be the same as source origin \"%s\""
+  },
+  "ServiceWorker registration failed:": {
+    "id": "4V",
+    "message": "ServiceWorker registration failed:"
+  },
+  "Either the data-media-id or the data-playlist-id attributes must be specified for <amp-jwplayer> %s": {
+    "id": "4W",
+    "message": "Either the data-media-id or the data-playlist-id attributes must be specified for <amp-jwplayer> %s"
+  },
+  "The data-player-id attribute is required for <amp-jwplayer> %s": {
+    "id": "4X",
+    "message": "The data-player-id attribute is required for <amp-jwplayer> %s"
+  },
+  "The data-videoid attribute is required for <amp-izlesene> %s": {
+    "id": "4Y",
+    "message": "The data-videoid attribute is required for <amp-izlesene> %s"
+  },
+  "The data-riddle-id attribute is required for <amp-riddle-quiz> %s": {
+    "id": "4Z",
+    "message": "The data-riddle-id attribute is required for <amp-riddle-quiz> %s"
+  },
+  "The current browser doesn't support the `window.DeviceOrientationEvent`": {
+    "id": "50",
+    "message": "The current browser doesn't support the `window.DeviceOrientationEvent`"
+  },
+  "The data-mode attribute is required for <amp-springboard-player> %s": {
+    "id": "51",
+    "message": "The data-mode attribute is required for <amp-springboard-player> %s"
+  },
+  "The data-content-id attribute is required for<amp-springboard-player> %s": {
+    "id": "52",
+    "message": "The data-content-id attribute is required for<amp-springboard-player> %s"
+  },
+  "The data-domain attribute is required for <amp-springboard-player> %s": {
+    "id": "53",
+    "message": "The data-domain attribute is required for <amp-springboard-player> %s"
+  },
+  "The data-site-id attribute is required for<amp-springboard-player> %s": {
+    "id": "54",
+    "message": "The data-site-id attribute is required for<amp-springboard-player> %s"
+  },
+  "The data-player-id attribute is required for<amp-springboard-player> %s": {
+    "id": "55",
+    "message": "The data-player-id attribute is required for<amp-springboard-player> %s"
+  },
+  "The data-param-videoid attribute is required for %s": {
+    "id": "56",
+    "message": "The data-param-videoid attribute is required for %s"
+  },
+  "Duplicate amp-story-page ID %s": {
+    "id": "57",
+    "message": "Duplicate amp-story-page ID %s"
+  },
+  "amp-consent must have an amp-story-consent child": {
+    "id": "58",
+    "message": "amp-consent must have an amp-story-consent child"
+  },
+  "amp-consent only allows tags: %s": {
+    "id": "59",
+    "message": "amp-consent only allows tags: %s"
+  },
+  "No active page set when navigating to next page.": {
+    "id": "5a",
+    "message": "No active page set when navigating to next page."
+  },
+  "No active page set when navigating to previous page.": {
+    "id": "5b",
+    "message": "No active page set when navigating to previous page."
+  },
+  "Story refers to page \"%s\", but no such page exists.": {
+    "id": "5c",
+    "message": "Story refers to page \"%s\", but no such page exists."
+  },
+  "Page at index %s exists, but is missing from the array.": {
+    "id": "5d",
+    "message": "Page at index %s exists, but is missing from the array."
+  },
+  "Inserting ads automatically is disallowed.": {
+    "id": "5e",
+    "message": "Inserting ads automatically is disallowed."
+  },
+  "The data-src attribute is required for <amp-reddit> %s": {
+    "id": "5f",
+    "message": "The data-src attribute is required for <amp-reddit> %s"
+  },
+  "The data-embedtype attribute is required for <amp-reddit> %s": {
+    "id": "5g",
+    "message": "The data-embedtype attribute is required for <amp-reddit> %s"
+  },
+  "placeholder required with layout=\"container\"": {
+    "id": "5h",
+    "message": "placeholder required with layout=\"container\""
+  },
+  "/The data-mediaid attribute is required for <amp-mowplayer> %s": {
+    "id": "5i",
+    "message": "/The data-mediaid attribute is required for <amp-mowplayer> %s"
+  },
+  "Multiple amp-mraid scripts.": {
+    "id": "5j",
+    "message": "Multiple amp-mraid scripts."
+  },
+  "Missing amp-mraid scripts.": {
+    "id": "5k",
+    "message": "Missing amp-mraid scripts."
+  },
+  "One of data-client or data-domain-id attributes is required for <amp-nexxtv-player> %s": {
+    "id": "5l",
+    "message": "One of data-client or data-domain-id attributes is required for <amp-nexxtv-player> %s"
+  },
+  "The data-mediaid attribute is required for <amp-nexxtv-player> %s": {
+    "id": "5m",
+    "message": "The data-mediaid attribute is required for <amp-nexxtv-player> %s"
+  },
+  "data-pid attribute is required for <amp-o2-player> %s": {
+    "id": "5n",
+    "message": "data-pid attribute is required for <amp-o2-player> %s"
+  },
+  "data-bcid attribute is required for <amp-o2-player> %s": {
+    "id": "5o",
+    "message": "data-bcid attribute is required for <amp-o2-player> %s"
+  },
+  "The data-embedcode attribute is required for %s": {
+    "id": "5p",
+    "message": "The data-embedcode attribute is required for %s"
+  },
+  "The data-pcode attribute is required for %s": {
+    "id": "5q",
+    "message": "The data-pcode attribute is required for %s"
+  },
+  "The data-playerid attribute is required for %s": {
+    "id": "5r",
+    "message": "The data-playerid attribute is required for %s"
+  },
+  "The data-partner attribute is required for <amp-kaltura-player> %s": {
+    "id": "5s",
+    "message": "The data-partner attribute is required for <amp-kaltura-player> %s"
+  },
+  "data-playlist or data-episode is required for <amp-megaphone> %s": {
+    "id": "5t",
+    "message": "data-playlist or data-episode is required for <amp-megaphone> %s"
+  },
+  "<%s> requires either \"data-id\" or a pair of \"data-url\" and \"data-key\" attributes for %s": {
+    "id": "5u",
+    "message": "<%s> requires either \"data-id\" or a pair of \"data-url\" and \"data-key\" attributes for %s"
+  },
+  "Iframely data-key must also be set when you specify data-url parameter at <%s> %s": {
+    "id": "5v",
+    "message": "Iframely data-key must also be set when you specify data-url parameter at <%s> %s"
+  },
+  "Iframely data-url must also be set when you specify data-key parameter at <%s> %s": {
+    "id": "5w",
+    "message": "Iframely data-url must also be set when you specify data-key parameter at <%s> %s"
+  },
+  "Iframely data-id should not be set when there is already a pair of data-url and data-key for <%s> %s": {
+    "id": "5x",
+    "message": "Iframely data-id should not be set when there is already a pair of data-url and data-key for <%s> %s"
+  },
+  "Only one way of setting either data-id or data-url and data-key supported for <%s> %s": {
+    "id": "5y",
+    "message": "Only one way of setting either data-id or data-url and data-key supported for <%s> %s"
+  },
+  "The data-eid attribute is required for <amp-hulu> %s": {
+    "id": "5z",
+    "message": "The data-eid attribute is required for <amp-hulu> %s"
+  },
+  "The data-content-type must be specified for <amp-minute-media-player> %s": {
+    "id": "5A",
+    "message": "The data-content-type must be specified for <amp-minute-media-player> %s"
+  },
+  "The data-content-id must be specified for %s data-content-type in <amp-minute-media-player> %s": {
+    "id": "5B",
+    "message": "The data-content-id must be specified for %s data-content-type in <amp-minute-media-player> %s"
+  },
+  "One and only one of 'target' and 'variable' must be specified": {
+    "id": "5C",
+    "message": "One and only one of 'target' and 'variable' must be specified"
+  },
+  "Variable target not found, variable:'%s', default:'%s'": {
+    "id": "5D",
+    "message": "Variable target not found, variable:'%s', default:'%s'"
+  },
+  "Exit target not found: '%s'": {
+    "id": "5E",
+    "message": "Exit target not found: '%s'"
+  },
+  "Unexpected null event": {
+    "id": "5F",
+    "message": "Unexpected null event"
+  },
+  "Invalid IFRAME_TRANSPORT_SIGNAL format:%s (perhaps there is a space after a comma?)": {
+    "id": "5G",
+    "message": "Invalid IFRAME_TRANSPORT_SIGNAL format:%s (perhaps there is a space after a comma?)"
+  },
+  "The tag should contain exactly one <script> child.": {
+    "id": "5H",
+    "message": "The tag should contain exactly one <script> child."
+  },
+  "The amp-ad-exit config should be inside a <script> tag with type=\"application/json\"": {
+    "id": "5I",
+    "message": "The amp-ad-exit config should be inside a <script> tag with type=\"application/json\""
+  },
+  "Unlistener should not already exist.": {
+    "id": "5J",
+    "message": "Unlistener should not already exist."
+  },
+  "Received empty response from 3p analytics frame": {
+    "id": "5K",
+    "message": "Received empty response from 3p analytics frame"
+  },
+  "Received malformed message from 3p analytics frame: creativeId missing": {
+    "id": "5L",
+    "message": "Received malformed message from 3p analytics frame: creativeId missing"
+  },
+  "Received malformed message from 3p analytics frame: vendor missing": {
+    "id": "5M",
+    "message": "Received malformed message from 3p analytics frame: vendor missing"
+  },
+  "Invalid origin for vendor %s: %s": {
+    "id": "5N",
+    "message": "Invalid origin for vendor %s: %s"
+  },
+  "The data-vineid attribute is required for <amp-vine> %s": {
+    "id": "5O",
+    "message": "The data-vineid attribute is required for <amp-vine> %s"
+  },
+  "The data-videoid attribute is required for <amp-viqeo-player> %s": {
+    "id": "5P",
+    "message": "The data-videoid attribute is required for <amp-viqeo-player> %s"
+  },
+  "The data-profileid attribute is required for <amp-viqeo-player> %s": {
+    "id": "5Q",
+    "message": "The data-profileid attribute is required for <amp-viqeo-player> %s"
+  },
+  "The data-embedtype attribute is required for <amp-vk> %s": {
+    "id": "5R",
+    "message": "The data-embedtype attribute is required for <amp-vk> %s"
+  },
+  "Unknown data-embedtype: %s": {
+    "id": "5S",
+    "message": "Unknown data-embedtype: %s"
+  },
+  "The data-owner-id attribute is required for <amp-vk> Post %s": {
+    "id": "5T",
+    "message": "The data-owner-id attribute is required for <amp-vk> Post %s"
+  },
+  "The data-post-id attribute is required for <amp-vk> Post %s": {
+    "id": "5U",
+    "message": "The data-post-id attribute is required for <amp-vk> Post %s"
+  },
+  "The data-hash attribute is required for <amp-vk> Post %s": {
+    "id": "5V",
+    "message": "The data-hash attribute is required for <amp-vk> Post %s"
+  },
+  "The data-api-id attribute is required for <amp-vk> Poll %s": {
+    "id": "5W",
+    "message": "The data-api-id attribute is required for <amp-vk> Poll %s"
+  },
+  "The data-poll-id attribute is required for <amp-vk> Poll %s": {
+    "id": "5X",
+    "message": "The data-poll-id attribute is required for <amp-vk> Poll %s"
+  },
+  "The data-media-hashed-id attribute is required for <amp-wistia-player> %s": {
+    "id": "5Y",
+    "message": "The data-media-hashed-id attribute is required for <amp-wistia-player> %s"
+  },
+  "The data-app-key attribute is required for <amp-yotpo> %s": {
+    "id": "5Z",
+    "message": "The data-app-key attribute is required for <amp-yotpo> %s"
+  },
+  "The data-widget-type attribute is required for <amp-yotpo> %s": {
+    "id": "60",
+    "message": "The data-widget-type attribute is required for <amp-yotpo> %s"
+  },
+  "Exactly one of data-videoid or data-live-channelid should be present for <amp-youtube> %s": {
+    "id": "61",
+    "message": "Exactly one of data-videoid or data-live-channelid should be present for <amp-youtube> %s"
+  },
+  "Content cannot be empty. Found in: %s": {
+    "id": "62",
+    "message": "Content cannot be empty. Found in: %s"
+  },
+  "Decode error in %s": {
+    "id": "63",
+    "message": "Decode error in %s"
+  },
+  "Can't find source element for currentSrc %s": {
+    "id": "64",
+    "message": "Can't find source element for currentSrc %s"
+  },
+  "Tried to reset amp-video without an underlying <video>.": {
+    "id": "65",
+    "message": "Tried to reset amp-video without an underlying <video>."
+  },
+  "The data-videoid attribute is required for <amp-vimeo> %s": {
+    "id": "66",
+    "message": "The data-videoid attribute is required for <amp-vimeo> %s"
+  },
+  "Unknown method `%s`.": {
+    "id": "67",
+    "message": "Unknown method `%s`."
+  },
+  "`eventType` missing in analytics event": {
+    "id": "68",
+    "message": "`eventType` missing in analytics event"
+  },
+  "Invalid analytics `eventType`. Value must start with `%s`.": {
+    "id": "69",
+    "message": "Invalid analytics `eventType`. Value must start with `%s`."
+  },
+  "No element found with id:%s": {
+    "id": "6a",
+    "message": "No element found with id:%s"
+  },
+  "Only pixel or vh are valid as units for exclusion margins: %s": {
+    "id": "6b",
+    "message": "Only pixel or vh are valid as units for exclusion margins: %s"
+  },
+  "Ratios must be a decimal between 0 and 1: %s": {
+    "id": "6c",
+    "message": "Ratios must be a decimal between 0 and 1: %s"
+  },
+  "data-trackid or data-playlistid is required for <amp-soundcloud> %s": {
+    "id": "6d",
+    "message": "data-trackid or data-playlistid is required for <amp-soundcloud> %s"
+  },
+  "The data-account attribute is required for <amp-powr-player> %s": {
+    "id": "6e",
+    "message": "The data-account attribute is required for <amp-powr-player> %s"
+  },
+  "The data-player attribute is required for <amp-powr-player> %s": {
+    "id": "6f",
+    "message": "The data-player attribute is required for <amp-powr-player> %s"
+  },
+  "The data-video or data-terms attribute is required for <amp-powr-player> %s": {
+    "id": "6g",
+    "message": "The data-video or data-terms attribute is required for <amp-powr-player> %s"
+  },
+  "The src attribute must be specified for <amp-bodymovin-animation>": {
+    "id": "6h",
+    "message": "The src attribute must be specified for <amp-bodymovin-animation>"
+  },
+  "%s not registered to VideoManager": {
+    "id": "6i",
+    "message": "%s not registered to VideoManager"
+  },
+  "Could not find an element with id=\"%s\" for VIDEO_STATE": {
+    "id": "6j",
+    "message": "Could not find an element with id=\"%s\" for VIDEO_STATE"
+  },
+  "Only interactive videos are allowed to enter fullscreen on rotate. Set the `controls` attribute on %s to enable.": {
+    "id": "6k",
+    "message": "Only interactive videos are allowed to enter fullscreen on rotate. Set the `controls` attribute on %s to enable."
+  },
+  "BundleID is incorrect or not provided.": {
+    "id": "6l",
+    "message": "BundleID is incorrect or not provided."
+  },
+  "ItemID is not provided.": {
+    "id": "6m",
+    "message": "ItemID is not provided."
+  },
+  "No element with id #poool found to render paywall into, got": {
+    "id": "6n",
+    "message": "No element with id #poool found to render paywall into, got"
+  },
+  "layoutCallback invoked before XHR request!": {
+    "id": "6o",
+    "message": "layoutCallback invoked before XHR request!"
+  },
+  "Validator never registered!": {
+    "id": "6p",
+    "message": "Validator never registered!"
+  },
+  "Renderer for AMP creatives never registered!": {
+    "id": "6q",
+    "message": "Renderer for AMP creatives never registered!"
+  },
+  "Invalid recovery mode!": {
+    "id": "6r",
+    "message": "Invalid recovery mode!"
+  },
+  "missing creative size": {
+    "id": "6s",
+    "message": "missing creative size"
+  },
+  "missing ad request url": {
+    "id": "6t",
+    "message": "missing ad request url"
+  },
+  "Config must have triggers defined": {
+    "id": "6u",
+    "message": "Config must have triggers defined"
+  },
+  "CustomEventReporter config must specify trigger eventType": {
+    "id": "6v",
+    "message": "CustomEventReporter config must specify trigger eventType"
+  },
+  "Cannot trigger non initiated eventType": {
+    "id": "6w",
+    "message": "Cannot trigger non initiated eventType"
+  },
+  "customEventReporterBuilder should not track same eventType twice": {
+    "id": "6x",
+    "message": "customEventReporterBuilder should not track same eventType twice"
+  },
+  "CustomEventReporter already built": {
+    "id": "6y",
+    "message": "CustomEventReporter already built"
+  },
+  "Error determining consent state": {
+    "id": "6z",
+    "message": "Error determining consent state"
+  },
+  "Error determining consent string": {
+    "id": "6A",
+    "message": "Error determining consent string"
+  },
+  "Error determining consent metadata": {
+    "id": "6B",
+    "message": "Error determining consent metadata"
+  },
+  "Null promise in layoutCallback": {
+    "id": "6C",
+    "message": "Null promise in layoutCallback"
+  },
+  "%s: requires <amp-geo> to use `block-rtc`": {
+    "id": "6D",
+    "message": "%s: requires <amp-geo> to use `block-rtc`"
+  },
+  "Invalid size header: %s": {
+    "id": "6E",
+    "message": "Invalid size header: %s"
+  },
+  "missing minified creative": {
+    "id": "6F",
+    "message": "missing minified creative"
+  },
+  "missing owner document?!": {
+    "id": "6G",
+    "message": "missing owner document?!"
+  },
+  "Unrecognized A4A cross-domain rendering mode: %s": {
+    "id": "6H",
+    "message": "Unrecognized A4A cross-domain rendering mode: %s"
+  },
+  "A4A received unrecognized cross-domain name attribute iframe rendering mode request: %s.  Unable to render a creative for slot %s.": {
+    "id": "6I",
+    "message": "A4A received unrecognized cross-domain name attribute iframe rendering mode request: %s.  Unable to render a creative for slot %s."
+  },
+  "cross-origin render mode header %s": {
+    "id": "6J",
+    "message": "cross-origin render mode header %s"
+  },
+  "Upgrade failed": {
+    "id": "6K",
+    "message": "Upgrade failed"
+  },
+  "Convert to container width state failed": {
+    "id": "6L",
+    "message": "Convert to container width state failed"
+  },
+  "Invalid signature header: %s": {
+    "id": "6M",
+    "message": "Invalid signature header: %s"
+  },
+  "Keyset for service %s not loaded before verification": {
+    "id": "6N",
+    "message": "Keyset for service %s not loaded before verification"
+  },
+  "Failed to verify signature: %s": {
+    "id": "6O",
+    "message": "Failed to verify signature: %s"
+  },
+  "Fast Fetch keyset spec requires status code 200": {
+    "id": "6P",
+    "message": "Fast Fetch keyset spec requires status code 200"
+  },
+  "Fast Fetch keyset spec requires Content-Type: application/jwk-set+json": {
+    "id": "6Q",
+    "message": "Fast Fetch keyset spec requires Content-Type: application/jwk-set+json"
+  },
+  "Signing service error for %s: %s": {
+    "id": "6R",
+    "message": "Signing service error for %s: %s"
+  },
+  "refresh metadata config must be of the form `network_type=refresh_interval`": {
+    "id": "6S",
+    "message": "refresh metadata config must be of the form `network_type=refresh_interval`"
+  },
+  "visiblePercentageMin for refresh must be in the range [0, 100]": {
+    "id": "6T",
+    "message": "visiblePercentageMin for refresh must be in the range [0, 100]"
+  },
+  "CONSENT_METADATA macro must contian a key": {
+    "id": "6U",
+    "message": "CONSENT_METADATA macro must contian a key"
+  },
+  "Unknown macro: %s for vendor: %s": {
+    "id": "6V",
+    "message": "Unknown macro: %s for vendor: %s"
+  },
+  "AMP-SCRIPT is not installed.": {
+    "id": "6W",
+    "message": "AMP-SCRIPT is not installed."
+  },
+  "RTC Config must specify vendors or urls": {
+    "id": "6X",
+    "message": "RTC Config must specify vendors or urls"
+  },
+  "RTC invalid vendors": {
+    "id": "6Y",
+    "message": "RTC invalid vendors"
+  },
+  "RTC invalid urls": {
+    "id": "6Z",
+    "message": "RTC invalid urls"
+  },
+  "Frame contentWindow unavailable.": {
+    "id": "70",
+    "message": "Frame contentWindow unavailable."
+  },
+  "Invalid expand values.": {
+    "id": "71",
+    "message": "Invalid expand values."
+  },
+  "Invalid resize values.": {
+    "id": "72",
+    "message": "Invalid resize values."
+  },
+  "Resizing failed: %s": {
+    "id": "73",
+    "message": "Resizing failed: %s"
+  },
+  "No ad element": {
+    "id": "74",
+    "message": "No ad element"
+  },
+  "The value attribute is required for <%s>": {
+    "id": "75",
+    "message": "The value attribute is required for <%s>"
+  },
+  "The data-url attribute is required for <%s> %s": {
+    "id": "76",
+    "message": "The data-url attribute is required for <%s> %s"
+  },
+  "Crypto is unavailable.": {
+    "id": "77",
+    "message": "Crypto is unavailable."
+  },
+  "Failed to verify experiment token:": {
+    "id": "78",
+    "message": "Failed to verify experiment token:"
+  },
+  "Missing content for experiment token: ": {
+    "id": "79",
+    "message": "Missing content for experiment token: "
+  },
+  "Notification not found: %s": {
+    "id": "7a",
+    "message": "Notification not found: %s"
+  },
+  "Missing experiment variants config.": {
+    "id": "7b",
+    "message": "Missing experiment variants config."
+  },
+  "Invalid percentage %s:%s. Has to be greater than 0 and less than 100": {
+    "id": "7c",
+    "message": "Invalid percentage %s:%s. Has to be greater than 0 and less than 100"
+  },
+  "Total percentage is bigger than 100: %s": {
+    "id": "7d",
+    "message": "Total percentage is bigger than 100: %s"
+  },
+  "Invalid name: %s. Allowed chars are [a-zA-Z0-9-_].": {
+    "id": "7e",
+    "message": "Invalid name: %s. Allowed chars are [a-zA-Z0-9-_]."
+  },
+  "Mutation %s has an an unsupported value.": {
+    "id": "7f",
+    "message": "Mutation %s has an an unsupported value."
+  },
+  "childList mutations not supported in the current experiment state.": {
+    "id": "7g",
+    "message": "childList mutations not supported in the current experiment state."
+  },
+  "Missing variants object from experiment.": {
+    "id": "7h",
+    "message": "Missing variants object from experiment."
+  },
+  "%s.variants.%s must be an object.": {
+    "id": "7i",
+    "message": "%s.variants.%s must be an object."
+  },
+  "%s.variants.%s must have a number weight.": {
+    "id": "7j",
+    "message": "%s.variants.%s must have a number weight."
+  },
+  "Invalid weight percentage %s. %s.variants.%s Has to be greater than 0 and less than 100": {
+    "id": "7k",
+    "message": "Invalid weight percentage %s. %s.variants.%s Has to be greater than 0 and less than 100"
+  },
+  "%s.variants.%s must have a mutations array.": {
+    "id": "7l",
+    "message": "%s.variants.%s must have a mutations array."
+  },
+  "<amp-skimlinks> Invalid option => %s": {
+    "id": "7m",
+    "message": "<amp-skimlinks> Invalid option => %s"
+  },
+  "The advancement is expected to be time-based in preview mode": {
+    "id": "7n",
+    "message": "The advancement is expected to be time-based in preview mode"
+  },
+  "amp-story-page must be a descendant of amp-story.": {
+    "id": "7o",
+    "message": "amp-story-page must be a descendant of amp-story."
+  },
+  "Don't use Fragment (<></>) with #core/dom/jsx. Use a root node or an array of nodes instead.": {
+    "id": "7p",
+    "message": "Don't use Fragment (<></>) with #core/dom/jsx. Use a root node or an array of nodes instead."
+  },
+  "Failed to load the amp-img or amp-video.": {
+    "id": "7q",
+    "message": "Failed to load the amp-img or amp-video."
+  },
+  "Recognizer is not currently allowed: %s": {
+    "id": "7r",
+    "message": "Recognizer is not currently allowed: %s"
+  },
+  "%s config should be put in a <script> tag with type=\"application/json\"": {
+    "id": "7s",
+    "message": "%s config should be put in a <script> tag with type=\"application/json\""
+  },
+  "%s: config requires a title": {
+    "id": "7t",
+    "message": "%s: config requires a title"
+  },
+  "%s: config requires a message": {
+    "id": "7u",
+    "message": "%s: config requires a message"
+  },
+  "%s: config requires an array of vendors": {
+    "id": "7v",
+    "message": "%s: config requires an array of vendors"
+  },
+  "%s: config requires \"onlyAccept\" to be a boolean": {
+    "id": "7w",
+    "message": "%s: config requires \"onlyAccept\" to be a boolean"
+  },
+  "%s: config requires \"externalLink.title\" to be a string": {
+    "id": "7x",
+    "message": "%s: config requires \"externalLink.title\" to be a string"
+  },
+  "%s: config requires \"externalLink.href\" to be an absolute URL": {
+    "id": "7y",
+    "message": "%s: config requires \"externalLink.href\" to be an absolute URL"
+  },
+  "amp-story must contain id to use the live story functionality": {
+    "id": "7z",
+    "message": "amp-story must contain id to use the live story functionality"
+  },
+  "Factory for media type `%s` unset.": {
+    "id": "7A",
+    "message": "Factory for media type `%s` unset."
+  },
+  "Cannot deallocate unallocated media element.": {
+    "id": "7B",
+    "message": "Cannot deallocate unallocated media element."
+  },
+  "No media element %s to put back into DOM aftereviction.": {
+    "id": "7C",
+    "message": "No media element %s to put back into DOM aftereviction."
+  },
+  "Cannot play unregistered element.": {
+    "id": "7D",
+    "message": "Cannot play unregistered element."
+  },
+  "Blessing all media failed: ": {
+    "id": "7E",
+    "message": "Blessing all media failed: "
+  },
+  "Invalid embed config for target": {
+    "id": "7F",
+    "message": "Invalid embed config for target"
+  },
+  "The tooltip url is invalid": {
+    "id": "7G",
+    "message": "The tooltip url is invalid"
+  },
+  "No config matching provided target.": {
+    "id": "7H",
+    "message": "No config matching provided target."
+  },
+  "The tooltip icon url is invalid": {
+    "id": "7I",
+    "message": "The tooltip icon url is invalid"
+  },
+  "Link was too large; skipped for navigation. For more information, see https://github.com/ampproject/amphtml/issues/31108": {
+    "id": "7J",
+    "message": "Link was too large; skipped for navigation. For more information, see https://github.com/ampproject/amphtml/issues/31108"
+  },
+  "Element with ID %s is not a media element supported for automatic advancement.": {
+    "id": "7K",
+    "message": "Element with ID %s is not a media element supported for automatic advancement."
+  },
+  "Media element was unspecified.": {
+    "id": "7L",
+    "message": "Media element was unspecified."
+  },
+  "Unknown data source %s.": {
+    "id": "7M",
+    "message": "Unknown data source %s."
+  },
+  "Invalid 'state' parameter": {
+    "id": "7N",
+    "message": "Invalid 'state' parameter"
+  },
+  "\"amp-state:\" URLs require amp-bind to be installed.": {
+    "id": "7O",
+    "message": "\"amp-state:\" URLs require amp-bind to be installed."
+  },
+  "'amp-state' element with id '%s' was not found.": {
+    "id": "7P",
+    "message": "'amp-state' element with id '%s' was not found."
+  },
+  "[%s] No data was found at provided uri: %s": {
+    "id": "7Q",
+    "message": "[%s] No data was found at provided uri: %s"
+  },
+  "AMP-SCRIPT is not installed": {
+    "id": "7R",
+    "message": "AMP-SCRIPT is not installed"
+  },
+  "Removing \"%s\" attribute with invalid value in <%s %s=\"%s\">.": {
+    "id": "7S",
+    "message": "Removing \"%s\" attribute with invalid value in <%s %s=\"%s\">."
+  },
+  "Failed to parse srcset: ": {
+    "id": "7T",
+    "message": "Failed to parse srcset: "
+  },
+  "Removed invalid attribute %s[%s=\"%s\"].": {
+    "id": "7U",
+    "message": "Removed invalid attribute %s[%s=\"%s\"]."
+  },
+  "Removed invalid <use>. use[href] must start with \"#\".": {
+    "id": "7V",
+    "message": "Removed invalid <use>. use[href] must start with \"#\"."
+  },
+  "Unknown transport option: '%s'": {
+    "id": "7W",
+    "message": "Unknown transport option: '%s'"
+  },
+  "Filter specification '%s' is malformed": {
+    "id": "7X",
+    "message": "Filter specification '%s' is malformed"
+  },
+  "Supported filters: %s": {
+    "id": "7Y",
+    "message": "Supported filters: %s"
+  },
+  "'targets' must be an object": {
+    "id": "7Z",
+    "message": "'targets' must be an object"
+  },
+  "finalUrl of target '%s' must be a string": {
+    "id": "80",
+    "message": "finalUrl of target '%s' must be a string"
+  },
+  "filter '%s' not defined": {
+    "id": "81",
+    "message": "filter '%s' not defined"
+  },
+  "'%s' must match the pattern '%s'": {
+    "id": "82",
+    "message": "'%s' must match the pattern '%s'"
+  },
+  "Unknown or invalid vendor %s, note that vendor must use transport: iframe": {
+    "id": "83",
+    "message": "Unknown or invalid vendor %s, note that vendor must use transport: iframe"
+  },
+  "Invalid InactiveElementspec": {
+    "id": "84",
+    "message": "Invalid InactiveElementspec"
+  },
+  "Invalid ClickDelay spec": {
+    "id": "85",
+    "message": "Invalid ClickDelay spec"
+  },
+  "Video cache not properly configured": {
+    "id": "86",
+    "message": "Video cache not properly configured"
+  },
+  "cannot unobserve unobserved element": {
+    "id": "87",
+    "message": "cannot unobserve unobserved element"
+  },
+  "PositionObserver should always trigger entry with clientRect": {
+    "id": "88",
+    "message": "PositionObserver should always trigger entry with clientRect"
+  },
+  "failed fetching JSON data": {
+    "id": "89",
+    "message": "failed fetching JSON data"
+  },
+  "URL variable substitutions in CORS fetches from dynamic URLs (e.g. via amp-bind) require opt-in. Please add data-amp-replace=\"%s\" to the <%s> element. See https://bit.ly/amp-var-subs.": {
+    "id": "8a",
+    "message": "URL variable substitutions in CORS fetches from dynamic URLs (e.g. via amp-bind) require opt-in. Please add data-amp-replace=\"%s\" to the <%s> element. See https://bit.ly/amp-var-subs."
+  },
+  "Invalid amp-fx type `%s`": {
+    "id": "8b",
+    "message": "Invalid amp-fx type `%s`"
+  },
+  "No value provided for `amp-fx` attribute": {
+    "id": "8c",
+    "message": "No value provided for `amp-fx` attribute"
+  },
+  "Missing evaluator for scope: %s": {
+    "id": "8d",
+    "message": "Missing evaluator for scope: %s"
+  },
+  "Unrecognized method: %s": {
+    "id": "8e",
+    "message": "Unrecognized method: %s"
+  },
+  "Aborting setup due to null stylesheet.": {
+    "id": "8f",
+    "message": "Aborting setup due to null stylesheet."
+  },
+  "Failed to mutate fixed elements:": {
+    "id": "8g",
+    "message": "Failed to mutate fixed elements:"
+  },
+  "Failed to setup fixed elements:": {
+    "id": "8h",
+    "message": "Failed to setup fixed elements:"
+  },
+  "Inline styles with `top`, `bottom` and other CSS rules are not supported yet for fixed or sticky elements (#14186). Unexpected behavior may occur.": {
+    "id": "8i",
+    "message": "Inline styles with `top`, `bottom` and other CSS rules are not supported yet for fixed or sticky elements (#14186). Unexpected behavior may occur."
+  },
+  "Failed to test query match:": {
+    "id": "8j",
+    "message": "Failed to test query match:"
+  },
+  "Only <amp-ad> is allowed to enter lightbox mode.": {
+    "id": "8k",
+    "message": "Only <amp-ad> is allowed to enter lightbox mode."
+  },
+  "DomTransformStream.transferBody should only be called once": {
+    "id": "8l",
+    "message": "DomTransformStream.transferBody should only be called once"
+  },
+  "At most %s may be requested.": {
+    "id": "8m",
+    "message": "At most %s may be requested."
+  },
+  "Invalid selector: %s": {
+    "id": "8n",
+    "message": "Invalid selector: %s"
+  },
+  "CSS selector may match at most %s elements.": {
+    "id": "8o",
+    "message": "CSS selector may match at most %s elements."
+  },
+  "maxAncestorsToVisit must be a positive value.": {
+    "id": "8p",
+    "message": "maxAncestorsToVisit must be a positive value."
+  },
+  "Attempted to execute callback on completed visitor.": {
+    "id": "8q",
+    "message": "Attempted to execute callback on completed visitor."
+  },
+  "Mutation %s must be an object.": {
+    "id": "8r",
+    "message": "Mutation %s must be an object."
+  },
+  "Mutation %s must have a type.": {
+    "id": "8s",
+    "message": "Mutation %s must have a type."
+  },
+  "Mutation %s must have a valid type.": {
+    "id": "8t",
+    "message": "Mutation %s must have a valid type."
+  },
+  "Mutation %s must have a target.": {
+    "id": "8u",
+    "message": "Mutation %s must have a target."
+  },
+  "target %s cannot select i-amphtml-": {
+    "id": "8v",
+    "message": "target %s cannot select i-amphtml-"
+  },
+  "No element on the document matches the selector, %s .": {
+    "id": "8w",
+    "message": "No element on the document matches the selector, %s ."
+  },
+  "Unsupported style mutation property: %s, value: %s": {
+    "id": "8x",
+    "message": "Unsupported style mutation property: %s, value: %s"
+  },
+  "Only allowed value for \"trigger\" is \"visibility\": %s": {
+    "id": "8y",
+    "message": "Only allowed value for \"trigger\" is \"visibility\": %s"
+  },
+  "Invalid response from provided \"resolveUnknownLinks\" function.\"resolveUnknownLinks\" should return an instance of TwoStepsResponse": {
+    "id": "8z",
+    "message": "Invalid response from provided \"resolveUnknownLinks\" function.\"resolveUnknownLinks\" should return an instance of TwoStepsResponse"
+  },
+  "First keyframe offset for animation preset should be 0 or undefined": {
+    "id": "8A",
+    "message": "First keyframe offset for animation preset should be 0 or undefined"
+  },
+  "Negative delays are not allowed in amp-story \"animate-in\" animations.": {
+    "id": "8B",
+    "message": "Negative delays are not allowed in amp-story \"animate-in\" animations."
+  },
+  "Tried to execute playbackWhenReady_ before runner was resolved.": {
+    "id": "8C",
+    "message": "Tried to execute playbackWhenReady_ before runner was resolved."
+  },
+  "Executed before applyFirstFrameOrFinish": {
+    "id": "8D",
+    "message": "Executed before applyFirstFrameOrFinish"
+  },
+  "media must start paused": {
+    "id": "8E",
+    "message": "media must start paused"
+  },
+  "Invalid segment-id passed to progress-bar": {
+    "id": "8F",
+    "message": "Invalid segment-id passed to progress-bar"
+  },
+  "Either non-empty \"srcset\" or \"src\" attribute must be specified: %s": {
+    "id": "8G",
+    "message": "Either non-empty \"srcset\" or \"src\" attribute must be specified: %s"
+  },
+  "Srcset must have at least one source": {
+    "id": "8H",
+    "message": "Srcset must have at least one source"
+  },
+  "Srcset must have width or dpr sources, but not both": {
+    "id": "8I",
+    "message": "Srcset must have width or dpr sources, but not both"
+  },
+  "width=%s": {
+    "id": "8J",
+    "message": "width=%s"
+  },
+  "Duplicate width: %s": {
+    "id": "8K",
+    "message": "Duplicate width: %s"
+  },
+  "Duplicate dpr: %s": {
+    "id": "8L",
+    "message": "Duplicate dpr: %s"
+  },
+  "amp-link-rewriter: output config property is required": {
+    "id": "8M",
+    "message": "amp-link-rewriter: output config property is required"
+  },
+  "Invaid ClickLocation spec": {
+    "id": "8N",
+    "message": "Invaid ClickLocation spec"
+  },
+  "relativeTo element %s not found.": {
+    "id": "8O",
+    "message": "relativeTo element %s not found."
+  },
+  "All custom bezier curves should be specified by following the `cubic-bezier()` function notation.": {
+    "id": "8P",
+    "message": "All custom bezier curves should be specified by following the `cubic-bezier()` function notation."
+  },
+  "data-margin-start must be a percentage value and be between 0% and 100% for: %s": {
+    "id": "8Q",
+    "message": "data-margin-start must be a percentage value and be between 0% and 100% for: %s"
+  },
+  "data-parallax-factor=<number> attribute must be provided for: %s": {
+    "id": "8R",
+    "message": "data-parallax-factor=<number> attribute must be provided for: %s"
+  },
+  "data-parallax-factor must be a number and greater than 0 for: %s": {
+    "id": "8S",
+    "message": "data-parallax-factor must be a number and greater than 0 for: %s"
+  },
+  "data-margin-end must be a percentage value and be between 0% and 100% for: %s": {
+    "id": "8T",
+    "message": "data-margin-end must be a percentage value and be between 0% and 100% for: %s"
+  },
+  "data-margin-end must be greater than data-margin-start for: %s": {
+    "id": "8U",
+    "message": "data-margin-end must be greater than data-margin-start for: %s"
+  },
+  "missing valid match": {
+    "id": "8V",
+    "message": "missing valid match"
+  },
+  "%s should have its target element as its one and only child": {
+    "id": "8W",
+    "message": "%s should have its target element as its one and only child"
+  },
+  "%s is not supported by %s": {
+    "id": "8X",
+    "message": "%s is not supported by %s"
+  },
+  "The data-sitekey attribute is required for <amp-recaptcha-input> %s": {
+    "id": "8Y",
+    "message": "The data-sitekey attribute is required for <amp-recaptcha-input> %s"
+  },
+  "The data-action attribute is required for <amp-recaptcha-input> %s": {
+    "id": "8Z",
+    "message": "The data-action attribute is required for <amp-recaptcha-input> %s"
+  },
+  "The %s attribute is required for <amp-recaptcha-input> %s": {
+    "id": "90",
+    "message": "The %s attribute is required for <amp-recaptcha-input> %s"
+  },
+  "Unknown keyboard-select-mode: %s": {
+    "id": "91",
+    "message": "Unknown keyboard-select-mode: %s"
+  },
+  "[keyboard-select-mode=select] not supported for multiple selection amp-selector": {
+    "id": "92",
+    "message": "[keyboard-select-mode=select] not supported for multiple selection amp-selector"
+  },
+  "'index' must be greater than 0": {
+    "id": "93",
+    "message": "'index' must be greater than 0"
+  },
+  "'index' must be less than the length of options in the <amp-selector>": {
+    "id": "94",
+    "message": "'index' must be less than the length of options in the <amp-selector>"
+  },
+  "Either src or data-item attribute is required for <amp-playbuzz> %s": {
+    "id": "95",
+    "message": "Either src or data-item attribute is required for <amp-playbuzz> %s"
+  },
+  "expected global \"bento\" or specific \"bento-soundcloud\" experiment to be enabled": {
+    "id": "96",
+    "message": "expected global \"bento\" or specific \"bento-soundcloud\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-accordion\" experiment to be enabled": {
+    "id": "97",
+    "message": "expected global \"bento\" or specific \"bento-accordion\" experiment to be enabled"
+  },
+  "Unknown ad type \"%s\"": {
+    "id": "98",
+    "message": "Unknown ad type \"%s\""
+  },
+  "Gyroscope permission error: %s": {
+    "id": "99",
+    "message": "Gyroscope permission error: %s"
+  },
+  "amp-story-360 must contain an amp-img or amp-video element.": {
+    "id": "9a",
+    "message": "amp-story-360 must contain an amp-img or amp-video element."
+  },
+  "Failed to load the amp-img.": {
+    "id": "9b",
+    "message": "Failed to load the amp-img."
+  },
+  "Failed to load the amp-video.": {
+    "id": "9c",
+    "message": "Failed to load the amp-video."
+  },
+  "amp-story-360 is either not configured to play an animation or still loading content.": {
+    "id": "9d",
+    "message": "amp-story-360 is either not configured to play an animation or still loading content."
+  },
+  "amp-app-banner should have an id.": {
+    "id": "9e",
+    "message": "amp-app-banner should have an id."
+  },
+  "Failed to read storage": {
+    "id": "9f",
+    "message": "Failed to read storage"
+  },
+  "<button open-button> is required inside %s: %s": {
+    "id": "9g",
+    "message": "<button open-button> is required inside %s: %s"
+  },
+  "The url in app-argument has invalid protocol: %s": {
+    "id": "9h",
+    "message": "The url in app-argument has invalid protocol: %s"
+  },
+  "<meta name=\"apple-itunes-app\">'s content should contain app-argument to allow opening an already installed application on iOS.": {
+    "id": "9i",
+    "message": "<meta name=\"apple-itunes-app\">'s content should contain app-argument to allow opening an already installed application on iOS."
+  },
+  "\"lock-bounds\" requires \"width\" and \"height\" to be set on the amp-img child.": {
+    "id": "9j",
+    "message": "\"lock-bounds\" requires \"width\" and \"height\" to be set on the amp-img child."
+  },
+  "%s requires the \"type\" attribute to be \"text\" or \"search\" if present on <input>. %s": {
+    "id": "9k",
+    "message": "%s requires the \"type\" attribute to be \"text\" or \"search\" if present on <input>. %s"
+  },
+  "%s requires data to be provided via \"src\" attribute for server-side rendering. %s": {
+    "id": "9l",
+    "message": "%s requires data to be provided via \"src\" attribute for server-side rendering. %s"
+  },
+  "%s should provide a <template> or <script type=\"plain/text\"> element.": {
+    "id": "9m",
+    "message": "%s should provide a <template> or <script type=\"plain/text\"> element."
+  },
+  "%s does not support client-side filter when server-side render is required.": {
+    "id": "9n",
+    "message": "%s does not support client-side filter when server-side render is required."
+  },
+  "Unexpected filter: %s. %s": {
+    "id": "9o",
+    "message": "Unexpected filter: %s. %s"
+  },
+  "%s should contain exactly one <input> or <textarea> descendant %s": {
+    "id": "9p",
+    "message": "%s should contain exactly one <input> or <textarea> descendant %s"
+  },
+  "Unexpected \"src\" type: %s": {
+    "id": "9q",
+    "message": "Unexpected \"src\" type: %s"
+  },
+  "%s data must provide template for non-string items. %s": {
+    "id": "9r",
+    "message": "%s data must provide template for non-string items. %s"
+  },
+  "%s data property \"%s\" must map to string type. %s": {
+    "id": "9s",
+    "message": "%s data property \"%s\" must map to string type. %s"
+  },
+  "Could not retrieve AmpStoryStoreService": {
+    "id": "9t",
+    "message": "Could not retrieve AmpStoryStoreService"
+  },
+  "<%s> should be child of <amp-story>": {
+    "id": "9u",
+    "message": "<%s> should be child of <amp-story>"
+  },
+  "Player does not support `playerExperiments` message": {
+    "id": "9v",
+    "message": "Player does not support `playerExperiments` message"
+  },
+  "expected global \"bento\" or specific \"bento-brightcove\" experiment to be enabled": {
+    "id": "9w",
+    "message": "expected global \"bento\" or specific \"bento-brightcove\" experiment to be enabled"
+  },
+  "The data-webcare-id attribute is required for <%s> %s": {
+    "id": "9x",
+    "message": "The data-webcare-id attribute is required for <%s> %s"
+  },
+  "The data-label attribute is required for <%s> %s": {
+    "id": "9y",
+    "message": "The data-label attribute is required for <%s> %s"
+  },
+  "The number of pages should be at least 4 to enable subscriptions feature, got %s": {
+    "id": "9z",
+    "message": "The number of pages should be at least 4 to enable subscriptions feature, got %s"
+  },
+  "expected global \"bento\" or specific \"bento-dailymotion\" experiment to be enabled": {
+    "id": "9A",
+    "message": "expected global \"bento\" or specific \"bento-dailymotion\" experiment to be enabled"
+  },
+  "Page config is null": {
+    "id": "9B",
+    "message": "Page config is null"
+  },
+  "Services not configured in service config": {
+    "id": "9C",
+    "message": "Services not configured in service config"
+  },
+  "Page config is not yet fetched": {
+    "id": "9D",
+    "message": "Page config is not yet fetched"
+  },
+  "No matching services for the ID found": {
+    "id": "9E",
+    "message": "No matching services for the ID found"
+  },
+  "Failed to parse \"amp-subscriptions\" JSON: ": {
+    "id": "9F",
+    "message": "Failed to parse \"amp-subscriptions\" JSON: "
+  },
+  "fetch entitlements failed for %s": {
+    "id": "9G",
+    "message": "fetch entitlements failed for %s"
+  },
+  "Entitlement is null": {
+    "id": "9H",
+    "message": "Entitlement is null"
+  },
+  "Viewer auth failed:": {
+    "id": "9I",
+    "message": "Viewer auth failed:"
+  },
+  "Platform is not registered": {
+    "id": "9J",
+    "message": "Platform is not registered"
+  },
+  "amp-consent should have an id": {
+    "id": "9K",
+    "message": "amp-consent should have an id"
+  },
+  "consent-response message missing required info": {
+    "id": "9L",
+    "message": "consent-response message missing required info"
+  },
+  "consent-response info only supports string, %s, treated as undefined": {
+    "id": "9M",
+    "message": "consent-response info only supports string, %s, treated as undefined"
+  },
+  "notification ui manager not found": {
+    "id": "9N",
+    "message": "notification ui manager not found"
+  },
+  "Attempt to show an already displayed prompt UI": {
+    "id": "9O",
+    "message": "Attempt to show an already displayed prompt UI"
+  },
+  "%s no consent ui to hide": {
+    "id": "9P",
+    "message": "%s no consent ui to hide"
+  },
+  "No consent state manager": {
+    "id": "9Q",
+    "message": "No consent state manager"
+  },
+  "Must have arugments for `setPurpose`.": {
+    "id": "9R",
+    "message": "Must have arugments for `setPurpose`."
+  },
+  "Could not parse the `checkConsentHref` response.": {
+    "id": "9S",
+    "message": "Could not parse the `checkConsentHref` response."
+  },
+  "consent config not found": {
+    "id": "9T",
+    "message": "consent config not found"
+  },
+  "`setPurpose` values must be booleans.": {
+    "id": "9U",
+    "message": "`setPurpose` values must be booleans."
+  },
+  "CMP metadata is not an object.": {
+    "id": "9V",
+    "message": "CMP metadata is not an object."
+  },
+  "The data-content-id attribute is required": {
+    "id": "9W",
+    "message": "The data-content-id attribute is required"
+  },
+  "expected global \"bento\" or specific \"bento-facebook\" experiment to be enabled": {
+    "id": "9X",
+    "message": "expected global \"bento\" or specific \"bento-facebook\" experiment to be enabled"
+  },
+  "The %s element must have an id.": {
+    "id": "9Y",
+    "message": "The %s element must have an id."
+  },
+  "Cannot execute action because the GWD service is not registered.": {
+    "id": "9Z",
+    "message": "Cannot execute action because the GWD service is not registered."
+  },
+  "<amp-fx-flying-carpet> elements must be positioned after the 75% of first viewport: %s Current position: %s. Min: %s": {
+    "id": "a0",
+    "message": "<amp-fx-flying-carpet> elements must be positioned after the 75% of first viewport: %s Current position: %s. Min: %s"
+  },
+  "<amp-fx-flying-carpet> elements must be positioned before the last viewport: %s Current position: %s. Max: %s": {
+    "id": "a1",
+    "message": "<amp-fx-flying-carpet> elements must be positioned before the last viewport: %s Current position: %s. Max: %s"
+  },
+  "The data-shortcode attribute is required for <amp-instagram> %s": {
+    "id": "a2",
+    "message": "The data-shortcode attribute is required for <amp-instagram> %s"
+  },
+  "E#19457 this.container_": {
+    "id": "a3",
+    "message": "E#19457 this.container_"
+  },
+  "expected global \"bento\" or specific \"bento-lightbox-gallery\" experiment to be enabled": {
+    "id": "a4",
+    "message": "expected global \"bento\" or specific \"bento-lightbox-gallery\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-lightbox\" experiment to be enabled": {
+    "id": "a5",
+    "message": "expected global \"bento\" or specific \"bento-lightbox\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-instagram\" experiment to be enabled": {
+    "id": "a6",
+    "message": "expected global \"bento\" or specific \"bento-instagram\" experiment to be enabled"
+  },
+  "amp-live-list must have an \"update\" slot.": {
+    "id": "a7",
+    "message": "amp-live-list must have an \"update\" slot."
+  },
+  "amp-live-list must have an \"items\" slot.": {
+    "id": "a8",
+    "message": "amp-live-list must have an \"items\" slot."
+  },
+  "amp-live-list must have an id.": {
+    "id": "a9",
+    "message": "amp-live-list must have an id."
+  },
+  "amp-live-list # %s must have data-max-items-per-page attribute with numeric value. Found %s.": {
+    "id": "aa",
+    "message": "amp-live-list # %s must have data-max-items-per-page attribute with numeric value. Found %s."
+  },
+  "expected global \"bento\" or specific \"bento-jwplayer\" experiment to be enabled": {
+    "id": "ab",
+    "message": "expected global \"bento\" or specific \"bento-jwplayer\" experiment to be enabled"
+  },
+  "%s requires each expandable item to include a button that toggles it.": {
+    "id": "ac",
+    "message": "%s requires each expandable item to include a button that toggles it."
+  },
+  "expected global \"bento\" or specific \"bento-twitter\" experiment to be enabled": {
+    "id": "ad",
+    "message": "expected global \"bento\" or specific \"bento-twitter\" experiment to be enabled"
+  },
+  "submenu open/close buttons should not have tap actions registered.": {
+    "id": "ae",
+    "message": "submenu open/close buttons should not have tap actions registered."
+  },
+  "%s requires each submenu open button to have a submenu as its sibling": {
+    "id": "af",
+    "message": "%s requires each submenu open button to have a submenu as its sibling"
+  },
+  "%s requires each submenu to contain at least one submenu close button": {
+    "id": "ag",
+    "message": "%s requires each submenu to contain at least one submenu close button"
+  },
+  "%s: submenu close buttons are only allowed inside submenus": {
+    "id": "ah",
+    "message": "%s: submenu close buttons are only allowed inside submenus"
+  },
+  "expected global \"bento\" or specific \"bento-video-iframe\" experiment to be enabled": {
+    "id": "ai",
+    "message": "expected global \"bento\" or specific \"bento-video-iframe\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-video\" experiment to be enabled": {
+    "id": "aj",
+    "message": "expected global \"bento\" or specific \"bento-video\" experiment to be enabled"
+  },
+  "amp-user-notification should have an id.": {
+    "id": "ak",
+    "message": "amp-user-notification should have an id."
+  },
+  "Only one \"data-show-if-*\" attribute allowed": {
+    "id": "al",
+    "message": "Only one \"data-show-if-*\" attribute allowed"
+  },
+  "requires <amp-geo> to use promptIfUnknownForGeoGroup": {
+    "id": "am",
+    "message": "requires <amp-geo> to use promptIfUnknownForGeoGroup"
+  },
+  "`showNotification` should be a boolean. Got \"%s\" which is of type %s.": {
+    "id": "an",
+    "message": "`showNotification` should be a boolean. Got \"%s\" which is of type %s."
+  },
+  "Failed to opt out of Cid": {
+    "id": "ao",
+    "message": "Failed to opt out of Cid"
+  },
+  "The data-do attribute is required for <amp-pinterest> %s": {
+    "id": "ap",
+    "message": "The data-do attribute is required for <amp-pinterest> %s"
+  },
+  "Invalid type: %s": {
+    "id": "aq",
+    "message": "Invalid type: %s"
+  },
+  "Minimize-to-corner (`dock`) does not support portrait video.": {
+    "id": "ar",
+    "message": "Minimize-to-corner (`dock`) does not support portrait video."
+  },
+  "`dock` attribute can only be set on video components.": {
+    "id": "as",
+    "message": "`dock` attribute can only be set on video components."
+  },
+  "Dock slot must be an <amp-layout> element.": {
+    "id": "at",
+    "message": "Dock slot must be an <amp-layout> element."
+  },
+  "expected global \"bento\" or specific \"bento-vimeo\" experiment to be enabled": {
+    "id": "au",
+    "message": "expected global \"bento\" or specific \"bento-vimeo\" experiment to be enabled"
+  },
+  "Sections should be enclosed in a <section> tag, See https://github.com/ampproject/amphtml/blob/main/extensions/amp-accordion/amp-accordion.md. Found in: %s": {
+    "id": "av",
+    "message": "Sections should be enclosed in a <section> tag, See https://github.com/ampproject/amphtml/blob/main/extensions/amp-accordion/amp-accordion.md. Found in: %s"
+  },
+  "Each section must have exactly two children. See https://github.com/ampproject/amphtml/blob/main/extensions/amp-accordion/amp-accordion.md. Found in: %s": {
+    "id": "aw",
+    "message": "Each section must have exactly two children. See https://github.com/ampproject/amphtml/blob/main/extensions/amp-accordion/amp-accordion.md. Found in: %s"
+  },
+  "The \"expanded\" attribute cannot be used with amp-bind in version 0.1 of amp-accordion. Please bind to [data-expand] instead. Found in: %s": {
+    "id": "ax",
+    "message": "The \"expanded\" attribute cannot be used with amp-bind in version 0.1 of amp-accordion. Please bind to [data-expand] instead. Found in: %s"
+  },
+  "amp-accordion headings should not have tap actions registered.": {
+    "id": "ay",
+    "message": "amp-accordion headings should not have tap actions registered."
+  },
+  "No element found with id: %s": {
+    "id": "az",
+    "message": "No element found with id: %s"
+  },
+  "expected global \"bento\" or specific \"bento-youtube\" experiment to be enabled": {
+    "id": "aA",
+    "message": "expected global \"bento\" or specific \"bento-youtube\" experiment to be enabled"
+  },
+  "Either the data-apester-media-id or the data-apester-channel-token attributes must be specified for <amp-apester-media> %s": {
+    "id": "aB",
+    "message": "Either the data-apester-media-id or the data-apester-channel-token attributes must be specified for <amp-apester-media> %s"
+  },
+  "Display": {
+    "id": "aC",
+    "message": "Display"
+  },
+  "Widget id or product code is required for <amp-addthis> %s": {
+    "id": "aD",
+    "message": "Widget id or product code is required for <amp-addthis> %s"
+  },
+  "Only widget id or product code is required <amp-addthis> %s": {
+    "id": "aE",
+    "message": "Only widget id or product code is required <amp-addthis> %s"
+  },
+  "The data-pub-id attribute is required for <amp-addthis> %s": {
+    "id": "aF",
+    "message": "The data-pub-id attribute is required for <amp-addthis> %s"
+  },
+  "Experiment amp-next-page disabled": {
+    "id": "aG",
+    "message": "Experiment amp-next-page disabled"
+  },
+  "%s should contain at most one <div separator> child": {
+    "id": "aH",
+    "message": "%s should contain at most one <div separator> child"
+  },
+  "%s only supports type=adsense": {
+    "id": "aI",
+    "message": "%s only supports type=adsense"
+  },
+  "%s AdSense client should be of the format 'ca-pub-123456'": {
+    "id": "aJ",
+    "message": "%s AdSense client should be of the format 'ca-pub-123456'"
+  },
+  "%s AdSense slot should be a number": {
+    "id": "aK",
+    "message": "%s AdSense slot should be a number"
+  },
+  "error fetching config": {
+    "id": "aL",
+    "message": "error fetching config"
+  },
+  "%s should contain a <script> child, a URL specified in [src], or a [type]": {
+    "id": "aM",
+    "message": "%s should contain a <script> child, a URL specified in [src], or a [type]"
+  },
+  "%s should contain at most one <script> child": {
+    "id": "aN",
+    "message": "%s should contain at most one <script> child"
+  },
+  "%s config should be inside a <script> tag with type=\"application/json\"": {
+    "id": "aO",
+    "message": "%s config should be inside a <script> tag with type=\"application/json\""
+  },
+  "failed to parse config": {
+    "id": "aP",
+    "message": "failed to parse config"
+  },
+  "expected global \"bento\" or specific \"bento-carousel\" experiment to be enabled": {
+    "id": "aQ",
+    "message": "expected global \"bento\" or specific \"bento-carousel\" experiment to be enabled"
+  },
+  "Unsupported element: %s": {
+    "id": "aR",
+    "message": "Unsupported element: %s"
+  },
+  "Should not contain more than 2 images.": {
+    "id": "aS",
+    "message": "Should not contain more than 2 images."
+  },
+  "Should not contain <div>s without \"first\" or \"second\" attributes.": {
+    "id": "aT",
+    "message": "Should not contain <div>s without \"first\" or \"second\" attributes."
+  },
+  "2 images must be provided for comparison": {
+    "id": "aU",
+    "message": "2 images must be provided for comparison"
+  },
+  "value to seek to must be a number": {
+    "id": "aV",
+    "message": "value to seek to must be a number"
+  },
+  "form proxy failed to install": {
+    "id": "aW",
+    "message": "form proxy failed to install"
+  },
+  "form %s should not be on AMP CDN: %s": {
+    "id": "aX",
+    "message": "form %s should not be on AMP CDN: %s"
+  },
+  "Sending analytics failed:": {
+    "id": "aY",
+    "message": "Sending analytics failed:"
+  },
+  "Form submit service failed: %s": {
+    "id": "aZ",
+    "message": "Form submit service failed: %s"
+  },
+  "Failed to parse response JSON: %s": {
+    "id": "b0",
+    "message": "Failed to parse response JSON: %s"
+  },
+  "Form submission failed: %s": {
+    "id": "b1",
+    "message": "Form submission failed: %s"
+  },
+  "Only XHR based (via action-xhr attribute) submissions are supported for POST requests. %s": {
+    "id": "b2",
+    "message": "Only XHR based (via action-xhr attribute) submissions are supported for POST requests. %s"
+  },
+  "[amp-form]: viewerRenderTemplate | %s": {
+    "id": "b3",
+    "message": "[amp-form]: viewerRenderTemplate | %s"
+  },
+  "input[type=password] or input[type=file] may only appear in form[method=post]": {
+    "id": "b4",
+    "message": "input[type=password] or input[type=file] may only appear in form[method=post]"
+  },
+  "Redirects not supported in AMP4Email.": {
+    "id": "b5",
+    "message": "Redirects not supported in AMP4Email."
+  },
+  "Redirecting to target=_blank using AMP-Redirect-To is currently not supported, use target=_top instead. %s": {
+    "id": "b6",
+    "message": "Redirecting to target=_blank using AMP-Redirect-To is currently not supported, use target=_top instead. %s"
+  },
+  "The `AMP-Redirect-To` header value must be an absolute URL starting with https://. Found %s": {
+    "id": "b7",
+    "message": "The `AMP-Redirect-To` header value must be an absolute URL starting with https://. Found %s"
+  },
+  "Experiment \"amp-list-layout-container\" is not turned on.": {
+    "id": "b8",
+    "message": "Experiment \"amp-list-layout-container\" is not turned on."
+  },
+  "amp-list[layout=container] should have a placeholder to establish an initial size. See https://go.amp.dev/c/amp-list/#placeholder-and-fallback. %s": {
+    "id": "b9",
+    "message": "amp-list[layout=container] should have a placeholder to establish an initial size. See https://go.amp.dev/c/amp-list/#placeholder-and-fallback. %s"
+  },
+  "%s initialized with layout=container does not support infinite scrolling with [load-more]. %s": {
+    "id": "ba",
+    "message": "%s initialized with layout=container does not support infinite scrolling with [load-more]. %s"
+  },
+  "[amp-list]: \"amp-state\" URIs cannot be used in SSR mode.": {
+    "id": "bb",
+    "message": "[amp-list]: \"amp-state\" URIs cannot be used in SSR mode."
+  },
+  "[amp-list] No data was found at provided uri: %s": {
+    "id": "bc",
+    "message": "[amp-list] No data was found at provided uri: %s"
+  },
+  "[amp-list]: \"amp-script\" URIs cannot be used in SSR mode.": {
+    "id": "bd",
+    "message": "[amp-list]: \"amp-script\" URIs cannot be used in SSR mode."
+  },
+  "[amp-list] %s must return json, but instead returned: %s": {
+    "id": "be",
+    "message": "[amp-list] %s must return json, but instead returned: %s"
+  },
+  "[amp-list] \"[src]\" may not be bound in SSR mode.": {
+    "id": "bf",
+    "message": "[amp-list] \"[src]\" may not be bound in SSR mode."
+  },
+  "Response must contain an array or object at \"%s\". %s": {
+    "id": "bg",
+    "message": "Response must contain an array or object at \"%s\". %s"
+  },
+  "Failed fetching JSON data: XHR Failed fetching (%s): received no response.": {
+    "id": "bh",
+    "message": "Failed fetching JSON data: XHR Failed fetching (%s): received no response."
+  },
+  "Failed fetching JSON data (%s): HTTP error": {
+    "id": "bi",
+    "message": "Failed fetching JSON data (%s): HTTP error"
+  },
+  "Failed fetching JSON data: XHR Failed fetching (%s): Expected response with format {html: <string>}. Received: ": {
+    "id": "bj",
+    "message": "Failed fetching JSON data: XHR Failed fetching (%s): Expected response with format {html: <string>}. Received: "
+  },
+  "Failed fetching JSON data: XHR Failed fetching (%s)": {
+    "id": "bk",
+    "message": "Failed fetching JSON data: XHR Failed fetching (%s)"
+  },
+  "Nothing to render.": {
+    "id": "bl",
+    "message": "Nothing to render."
+  },
+  "Mismatched nodeName.": {
+    "id": "bm",
+    "message": "Mismatched nodeName."
+  },
+  "\"src\" or \"script\" attribute is required.": {
+    "id": "bn",
+    "message": "\"src\" or \"script\" attribute is required."
+  },
+  "Maximum total script size exceeded (%s). %s is disabled. See https://amp.dev/documentation/components/amp-script/#size-of-javascript-code.": {
+    "id": "bo",
+    "message": "Maximum total script size exceeded (%s). %s is disabled. See https://amp.dev/documentation/components/amp-script/#size-of-javascript-code."
+  },
+  "%s\n    at (%s:%s)": {
+    "id": "bp",
+    "message": "%s\n    at (%s:%s)"
+  },
+  "[%s] %s could not find element with #%s.": {
+    "id": "bq",
+    "message": "[%s] %s could not find element with #%s."
+  },
+  "[%s] script#%s must have target=\"amp-script\".": {
+    "id": "br",
+    "message": "[%s] script#%s must have target=\"amp-script\"."
+  },
+  "%s was terminated due to illegal mutation.": {
+    "id": "bs",
+    "message": "%s was terminated due to illegal mutation."
+  },
+  "[%s]: \"amp-script\" URIs must be of the format \"scriptId.functionIdentifier\".": {
+    "id": "bt",
+    "message": "[%s]: \"amp-script\" URIs must be of the format \"scriptId.functionIdentifier\"."
+  },
+  "[%s]: could not find <amp-script> with script set to %s": {
+    "id": "bu",
+    "message": "[%s]: could not find <amp-script> with script set to %s"
+  },
+  "Invalid AMP.setState() argument: %s": {
+    "id": "bv",
+    "message": "Invalid AMP.setState() argument: %s"
+  },
+  "Storage.clear() is not supported in amp-script.": {
+    "id": "bw",
+    "message": "Storage.clear() is not supported in amp-script."
+  },
+  "Invalid \"amp-\" prefix for storage key: %s": {
+    "id": "bx",
+    "message": "Invalid \"amp-\" prefix for storage key: %s"
+  },
+  "Turning on the amp-sidebar-v2 experiment is necessary to use the new sidebar component.": {
+    "id": "by",
+    "message": "Turning on the amp-sidebar-v2 experiment is necessary to use the new sidebar component."
+  },
+  "expected global \"bento\" or specific \"bento-inline-gallery\" experiment to be enabled": {
+    "id": "bz",
+    "message": "expected global \"bento\" or specific \"bento-inline-gallery\" experiment to be enabled"
+  },
+  "Failed to parse \"amp-access\" JSON: %s": {
+    "id": "bA",
+    "message": "Failed to parse \"amp-access\" JSON: %s"
+  },
+  "Namespace required": {
+    "id": "bB",
+    "message": "Namespace required"
+  },
+  "Namespace already used: %s": {
+    "id": "bC",
+    "message": "Namespace already used: %s"
+  },
+  "Access vendor \"%s\" can only be used for \"type=vendor\", but none found": {
+    "id": "bD",
+    "message": "Access vendor \"%s\" can only be used for \"type=vendor\", but none found"
+  },
+  "Template failed: ": {
+    "id": "bE",
+    "message": "Template failed: "
+  },
+  "Invalid index: %d": {
+    "id": "bF",
+    "message": "Invalid index: %d"
+  },
+  "Login must match namespace: %s": {
+    "id": "bG",
+    "message": "Login must match namespace: %s"
+  },
+  "The type attribute is required. %s": {
+    "id": "bH",
+    "message": "The type attribute is required. %s"
+  },
+  "Space characters are not allowed in type attribute value. %s": {
+    "id": "bI",
+    "message": "Space characters are not allowed in type attribute value. %s"
+  },
+  "The data-share-endpoint attribute is required. %s": {
+    "id": "bJ",
+    "message": "The data-share-endpoint attribute is required. %s"
+  },
+  "Clicked before href is set.": {
+    "id": "bK",
+    "message": "Clicked before href is set."
+  },
+  "expected global \"bento\" or specific \"bento-pan-zoom\" experiment to be enabled": {
+    "id": "bL",
+    "message": "expected global \"bento\" or specific \"bento-pan-zoom\" experiment to be enabled"
+  },
+  "Unexpected slide index for goToSlide action: %s. %s": {
+    "id": "bM",
+    "message": "Unexpected slide index for goToSlide action: %s. %s"
+  },
+  "At most one sticky ad can be loaded per page": {
+    "id": "bN",
+    "message": "At most one sticky ad can be loaded per page"
+  },
+  "amp-sticky-ad must have a single amp-ad child": {
+    "id": "bO",
+    "message": "amp-sticky-ad must have a single amp-ad child"
+  },
+  "amp-lightbox-gallery.open: element with id: %s not found": {
+    "id": "bP",
+    "message": "amp-lightbox-gallery.open: element with id: %s not found"
+  },
+  "enableLAA and enableMetering are mutually exclusive.": {
+    "id": "bQ",
+    "message": "enableLAA and enableMetering are mutually exclusive."
+  },
+  "skuMap does not contain subscribe.google.com section": {
+    "id": "bR",
+    "message": "skuMap does not contain subscribe.google.com section"
+  },
+  "fetch skuMap failed for %s": {
+    "id": "bS",
+    "message": "fetch skuMap failed for %s"
+  },
+  "enableLAA cannot be used when the document is encrypted": {
+    "id": "bT",
+    "message": "enableLAA cannot be used when the document is encrypted"
+  },
+  "subscribe-smartbutton must have a language attribute": {
+    "id": "bU",
+    "message": "subscribe-smartbutton must have a language attribute"
+  },
+  "Trying to set real time config on element '%s' with missing 'subscriptions-google-rtc' attrbute": {
+    "id": "bV",
+    "message": "Trying to set real time config on element '%s' with missing 'subscriptions-google-rtc' attrbute"
+  },
+  "expected global \"bento\" or specific \"bento-social-share\" experiment to be enabled": {
+    "id": "bW",
+    "message": "expected global \"bento\" or specific \"bento-social-share\" experiment to be enabled"
+  },
+  "Detached doc already closed.": {
+    "id": "bX",
+    "message": "Detached doc already closed."
+  },
+  "The amp-stream-gallery experiment must be enabled to use the component": {
+    "id": "bY",
+    "message": "The amp-stream-gallery experiment must be enabled to use the component"
+  },
+  "amp-date-picker mode must be \"static\" to use fullscreen attribute": {
+    "id": "bZ",
+    "message": "amp-date-picker mode must be \"static\" to use fullscreen attribute"
+  },
+  "Overlay single pickers must specify \"input-selector\" to an existing input element.": {
+    "id": "c0",
+    "message": "Overlay single pickers must specify \"input-selector\" to an existing input element."
+  },
+  "Overlay range pickers must \"start-input-selector\" and \"end-input-selector\" to existing start and end input elements.": {
+    "id": "c1",
+    "message": "Overlay range pickers must \"start-input-selector\" and \"end-input-selector\" to existing start and end input elements."
+  },
+  "Invalid date picker type": {
+    "id": "c2",
+    "message": "Invalid date picker type"
+  },
+  "transitonTo called before state machine is initialized": {
+    "id": "c3",
+    "message": "transitonTo called before state machine is initialized"
+  },
+  "Multiple date-pickers with implicit %s fields need to have IDs": {
+    "id": "c4",
+    "message": "Multiple date-pickers with implicit %s fields need to have IDs"
+  },
+  "Failed fetching date src data": {
+    "id": "c5",
+    "message": "Failed fetching date src data"
+  },
+  "Attribute data-embed-as for <amp-facebook> value is wrong, should be \"post\", \"video\", \"comments\", \"like\", or \"page\", but was: %s": {
+    "id": "c6",
+    "message": "Attribute data-embed-as for <amp-facebook> value is wrong, should be \"post\", \"video\", \"comments\", \"like\", or \"page\", but was: %s"
+  },
+  "Mutation %s must have a value.": {
+    "id": "c7",
+    "message": "Mutation %s must have a value."
+  },
+  "Mutation %s must have a attributeName.": {
+    "id": "c8",
+    "message": "Mutation %s must have a attributeName."
+  },
+  "unknown animation type: must have \"animations\" or \"keyframes\" field": {
+    "id": "c9",
+    "message": "unknown animation type: must have \"animations\" or \"keyframes\" field"
+  },
+  "Recursive animations are not allowed: \"%s\"": {
+    "id": "ca",
+    "message": "Recursive animations are not allowed: \"%s\""
+  },
+  "Animation not found: \"%s\"": {
+    "id": "cb",
+    "message": "Animation not found: \"%s\""
+  },
+  "Element is not an animation: \"%s\"": {
+    "id": "cc",
+    "message": "Element is not an animation: \"%s\""
+  },
+  "No target specified": {
+    "id": "cd",
+    "message": "No target specified"
+  },
+  "Keyframes not found in stylesheet: \"%s\"": {
+    "id": "ce",
+    "message": "Keyframes not found in stylesheet: \"%s\""
+  },
+  "keyframes not found": {
+    "id": "cf",
+    "message": "keyframes not found"
+  },
+  "unknown animation type: must have \"animation\", \"animations\" or \"keyframes\" field": {
+    "id": "cg",
+    "message": "unknown animation type: must have \"animation\", \"animations\" or \"keyframes\" field"
+  },
+  "Property is not allowlisted for animation: %s": {
+    "id": "ch",
+    "message": "Property is not allowlisted for animation: %s"
+  },
+  "Both \"selector\" and \"target\" are not allowed": {
+    "id": "ci",
+    "message": "Both \"selector\" and \"target\" are not allowed"
+  },
+  "string targets are deprecated": {
+    "id": "cj",
+    "message": "string targets are deprecated"
+  },
+  "Target not found: \"%s\"": {
+    "id": "ck",
+    "message": "Target not found: \"%s\""
+  },
+  "Only one \"index\" or \"selector\" must be specified": {
+    "id": "cl",
+    "message": "Only one \"index\" or \"selector\" must be specified"
+  },
+  "Bad subtarget selector: \"%s\"": {
+    "id": "cm",
+    "message": "Bad subtarget selector: \"%s\""
+  },
+  "\"iterations\" is invalid: %s": {
+    "id": "cn",
+    "message": "\"iterations\" is invalid: %s"
+  },
+  "\"iterationStart\" is invalid: %s": {
+    "id": "co",
+    "message": "\"iterationStart\" is invalid: %s"
+  },
+  "Unknown direction: %s": {
+    "id": "cp",
+    "message": "Unknown direction: %s"
+  },
+  "Unknown fill: %s": {
+    "id": "cq",
+    "message": "Unknown fill: %s"
+  },
+  "\"%s\" is invalid: %s": {
+    "id": "cr",
+    "message": "\"%s\" is invalid: %s"
+  },
+  "Bad query selector: \"%s\"": {
+    "id": "cs",
+    "message": "Bad query selector: \"%s\""
+  },
+  "Only allowed when target is specified": {
+    "id": "ct",
+    "message": "Only allowed when target is specified"
+  },
+  "Recursive variable: \"%s\"": {
+    "id": "cu",
+    "message": "Recursive variable: \"%s\""
+  },
+  "Unknown selection method: %s": {
+    "id": "cv",
+    "message": "Unknown selection method: %s"
+  },
+  "\"scale-end\" value must be greater than \"scale-start\" value when using \"zoom-in\" animation.": {
+    "id": "cw",
+    "message": "\"scale-end\" value must be greater than \"scale-start\" value when using \"zoom-in\" animation."
+  },
+  "\"scale-start\" value must be higher than \"scale-end\" value when using \"zoom-out\" animation.": {
+    "id": "cx",
+    "message": "\"scale-start\" value must be higher than \"scale-end\" value when using \"zoom-out\" animation."
+  },
+  "Listed function name \"%s\" doesn't match name property \"%s\".": {
+    "id": "cy",
+    "message": "Listed function name \"%s\" doesn't match name property \"%s\"."
+  },
+  "No merchant domains have been matched for this article, or no paid content configurations are setup.": {
+    "id": "cz",
+    "message": "No merchant domains have been matched for this article, or no paid content configurations are setup."
+  },
+  "No article title element found with selector %s": {
+    "id": "cA",
+    "message": "No article title element found with selector %s"
+  },
+  "No element found with id %s": {
+    "id": "cB",
+    "message": "No element found with id %s"
+  },
+  "No element found with given id": {
+    "id": "cC",
+    "message": "No element found with given id"
+  },
+  "custom ad slot should be alphanumeric: %s": {
+    "id": "cD",
+    "message": "custom ad slot should be alphanumeric: %s"
+  },
+  "custom ad url must be an HTTPS URL": {
+    "id": "cE",
+    "message": "custom ad url must be an HTTPS URL"
+  },
+  "TemplateId not specified": {
+    "id": "cF",
+    "message": "TemplateId not specified"
+  },
+  "Template data not specified": {
+    "id": "cG",
+    "message": "Template data not specified"
+  },
+  "Type \"%s\" is not supported in amp-ad": {
+    "id": "cH",
+    "message": "Type \"%s\" is not supported in amp-ad"
+  },
+  "Ad units with data-full-width must have width=\"100vw\".": {
+    "id": "cI",
+    "message": "Ad units with data-full-width must have width=\"100vw\"."
+  },
+  "Ad network does not support full width ads.": {
+    "id": "cJ",
+    "message": "Ad network does not support full width ads."
+  },
+  "<amp-ad> is not allowed to be placed in elements with position:fixed: %s unless it has sticky attribute": {
+    "id": "cK",
+    "message": "<amp-ad> is not allowed to be placed in elements with position:fixed: %s unless it has sticky attribute"
+  },
+  "E#19457 this.slideIndex_": {
+    "id": "cL",
+    "message": "E#19457 this.slideIndex_"
+  },
+  "Attempting to access a non-existant slide %s / %s": {
+    "id": "cM",
+    "message": "Attempting to access a non-existant slide %s / %s"
+  },
+  "%s Error reading config. Top level JSON should have an \"ad-attributes\" key": {
+    "id": "cN",
+    "message": "%s Error reading config. Top level JSON should have an \"ad-attributes\" key"
+  },
+  "The %s should be inside a <script> tag with type=\"application/json\"": {
+    "id": "cO",
+    "message": "The %s should be inside a <script> tag with type=\"application/json\""
+  },
+  "error determining if remote config is valid json: bad url or bad json": {
+    "id": "cP",
+    "message": "error determining if remote config is valid json: bad url or bad json"
+  },
+  "%s \"%s\" ad type is missing or not supported": {
+    "id": "cQ",
+    "message": "%s \"%s\" ad type is missing or not supported"
+  },
+  "%s id must start with i-amphtml-demo- to use fake ads": {
+    "id": "cR",
+    "message": "%s id must start with i-amphtml-demo- to use fake ads"
+  },
+  "%s all created ads consumed.": {
+    "id": "cS",
+    "message": "%s all created ads consumed."
+  },
+  "Empty value for the \"inline\" attr is unsupported, %s. %s": {
+    "id": "cT",
+    "message": "Empty value for the \"inline\" attr is unsupported, %s. %s"
+  },
+  "AutocompleteBindingInline does not support an empty value in the constructor.": {
+    "id": "cU",
+    "message": "AutocompleteBindingInline does not support an empty value in the constructor."
+  },
+  "Refused to attempt SSR in untrusted viewer: ": {
+    "id": "cV",
+    "message": "Refused to attempt SSR in untrusted viewer: "
+  },
+  "Skipping template rendering due to failed fetch": {
+    "id": "cW",
+    "message": "Skipping template rendering due to failed fetch"
+  },
+  "No config could be discovered in the page": {
+    "id": "cX",
+    "message": "No config could be discovered in the page"
+  },
+  "Platform for id %s is not resolved": {
+    "id": "cY",
+    "message": "Platform for id %s is not resolved"
+  },
+  "Platform %s has not yet resolved with entitlements": {
+    "id": "cZ",
+    "message": "Platform %s has not yet resolved with entitlements"
+  },
+  "Platform %s is not declared": {
+    "id": "d0",
+    "message": "Platform %s is not declared"
+  },
+  "All platforms are not resolved yet": {
+    "id": "d1",
+    "message": "All platforms are not resolved yet"
+  },
+  "Current product is not set": {
+    "id": "d2",
+    "message": "Current product is not set"
+  },
+  "Product id is null": {
+    "id": "d3",
+    "message": "Product id is null"
+  },
+  "The mismatching \"aud\" field: %s": {
+    "id": "d4",
+    "message": "The mismatching \"aud\" field: %s"
+  },
+  "Payload is expired": {
+    "id": "d5",
+    "message": "Payload is expired"
+  },
+  "%s: only single consent instance is supported": {
+    "id": "d6",
+    "message": "%s: only single consent instance is supported"
+  },
+  "%s: Inline config not found": {
+    "id": "d7",
+    "message": "%s: Inline config not found"
+  },
+  "%s: consentInstanceId to store consent info is required": {
+    "id": "d8",
+    "message": "%s: consentInstanceId to store consent info is required"
+  },
+  "%s: requires <amp-geo> to use `geoOverride`": {
+    "id": "d9",
+    "message": "%s: requires <amp-geo> to use `geoOverride`"
+  },
+  "consentInstanceId cannot be overriden in geoGroup:": {
+    "id": "da",
+    "message": "consentInstanceId cannot be overriden in geoGroup:"
+  },
+  "`consentRequired` is required": {
+    "id": "db",
+    "message": "`consentRequired` is required"
+  },
+  "%s: `checkConsentHref` must be specified if `consentRequired` is remote": {
+    "id": "dc",
+    "message": "%s: `checkConsentHref` must be specified if `consentRequired` is remote"
+  },
+  "%s: `promptUiSrc` cannot be specified while using %s.": {
+    "id": "dd",
+    "message": "%s: `promptUiSrc` cannot be specified while using %s."
+  },
+  "%s: invalid CMP type %s": {
+    "id": "de",
+    "message": "%s: invalid CMP type %s"
+  },
+  "CMP config must specify %s": {
+    "id": "df",
+    "message": "CMP config must specify %s"
+  },
+  "Invalid stored consent value": {
+    "id": "dg",
+    "message": "Invalid stored consent value"
+  },
+  "Consent metadata value \"%s\" is invalid.": {
+    "id": "dh",
+    "message": "Consent metadata value \"%s\" is invalid."
+  },
+  "invalid waitFor value, consent policy will never resolve": {
+    "id": "di",
+    "message": "invalid waitFor value, consent policy will never resolve"
+  },
+  "can not find policy %s, only predefined policies are supported": {
+    "id": "dj",
+    "message": "can not find policy %s, only predefined policies are supported"
+  },
+  "unsupported fallbackAction %s": {
+    "id": "dk",
+    "message": "unsupported fallbackAction %s"
+  },
+  "invalid timeout value %s": {
+    "id": "dl",
+    "message": "invalid timeout value %s"
+  },
+  "Cannot register consent instance %s, instance %s has already been registered.": {
+    "id": "dm",
+    "message": "Cannot register consent instance %s, instance %s has already been registered."
+  },
+  "instance not registered": {
+    "id": "dn",
+    "message": "instance not registered"
+  },
+  "%s: cannot find the instance": {
+    "id": "do",
+    "message": "%s: cannot find the instance"
+  },
+  "%s: Duplicate consent change handler, will be ignored": {
+    "id": "dp",
+    "message": "%s: Duplicate consent change handler, will be ignored"
+  },
+  "postPromptUI element with id=%s not found": {
+    "id": "dq",
+    "message": "postPromptUI element with id=%s not found"
+  },
+  "child element of <amp-consent> with promptUI id %s not found": {
+    "id": "dr",
+    "message": "child element of <amp-consent> with promptUI id %s not found"
+  },
+  "`promptUI` element contains an <amp-iframe>. This may cause content flashing when consent is not required. Consider using `promptUISrc` instead. See https://go.amp.dev/c/amp-analytics": {
+    "id": "ds",
+    "message": "`promptUI` element contains an <amp-iframe>. This may cause content flashing when consent is not required. Consider using `promptUISrc` instead. See https://go.amp.dev/c/amp-analytics"
+  },
+  "Inavlid initial height: %s.Minimum: %svh. Maximum: %svh.": {
+    "id": "dt",
+    "message": "Inavlid initial height: %s.Minimum: %svh. Maximum: %svh."
+  },
+  "Inavlid initial height: %s.Must be a string in \"vh\" units.": {
+    "id": "du",
+    "message": "Inavlid initial height: %s.Must be a string in \"vh\" units."
+  },
+  "cookies config must be an object": {
+    "id": "dv",
+    "message": "cookies config must be an object"
+  },
+  "invalid cookieMaxAge %s, falling back to default value (1 year)": {
+    "id": "dw",
+    "message": "invalid cookieMaxAge %s, falling back to default value (1 year)"
+  },
+  "cookieValue must be configured in an object": {
+    "id": "dx",
+    "message": "cookieValue must be configured in an object"
+  },
+  "value is required in the cookieValue object": {
+    "id": "dy",
+    "message": "value is required in the cookieValue object"
+  },
+  "Error expanding cookie string": {
+    "id": "dz",
+    "message": "Error expanding cookie string"
+  },
+  "\"tcfapiCall\" is not an object: %s": {
+    "id": "dA",
+    "message": "\"tcfapiCall\" is not an object: %s"
+  },
+  "Unsupported command found in \"tcfapiCall\": %s": {
+    "id": "dB",
+    "message": "Unsupported command found in \"tcfapiCall\": %s"
+  },
+  "Unsupported parameter found in \"tcfapiCall\": %s": {
+    "id": "dC",
+    "message": "Unsupported parameter found in \"tcfapiCall\": %s"
+  },
+  "Found incorrect version in \"tcfapiCall\": %s": {
+    "id": "dD",
+    "message": "Found incorrect version in \"tcfapiCall\": %s"
+  },
+  "Could not find page with index %s.": {
+    "id": "dE",
+    "message": "Could not find page with index %s."
+  },
+  "Invalid maxCount parameter: %s": {
+    "id": "dF",
+    "message": "Invalid maxCount parameter: %s"
+  },
+  "Event name required but not specified.": {
+    "id": "dG",
+    "message": "Event name required but not specified."
+  },
+  "Could not get receiver with id %s.": {
+    "id": "dH",
+    "message": "Could not get receiver with id %s."
+  },
+  "amp-live-list#%s found but did not exist on original page load.": {
+    "id": "dI",
+    "message": "amp-live-list#%s found but did not exist on original page load."
+  },
+  "CloseWatcher failed:": {
+    "id": "dJ",
+    "message": "CloseWatcher failed:"
+  },
+  "The %s attribute is required for <%s>": {
+    "id": "dK",
+    "message": "The %s attribute is required for <%s>"
+  },
+  "<%s> must have a valid helper-iframe-url attribute. It should begin with the https:// protocol and point to the provided lightweight template page provided for AMP messaging.": {
+    "id": "dL",
+    "message": "<%s> must have a valid helper-iframe-url attribute. It should begin with the https:// protocol and point to the provided lightweight template page provided for AMP messaging."
+  },
+  "<%s> must have a valid permission-dialog-url attribute. It should begin with the https:// protocol and point to the provided template page for showing the permission prompt.": {
+    "id": "dM",
+    "message": "<%s> must have a valid permission-dialog-url attribute. It should begin with the https:// protocol and point to the provided template page for showing the permission prompt."
+  },
+  "<%s> must have a valid service-worker-url attribute. It should begin with the https:// protocol and point to the service worker JavaScript file to be installed.": {
+    "id": "dN",
+    "message": "<%s> must have a valid service-worker-url attribute. It should begin with the https:// protocol and point to the service worker JavaScript file to be installed."
+  },
+  "<%s> URL attributes service-worker-url, permission-dialog-url, and helper-iframe-url must all share the same origin.": {
+    "id": "dO",
+    "message": "<%s> URL attributes service-worker-url, permission-dialog-url, and helper-iframe-url must all share the same origin."
+  },
+  "<%s> must have an id attribute with value '%s'.": {
+    "id": "dP",
+    "message": "<%s> must have an id attribute with value '%s'."
+  },
+  "Only one <%s> element may exist on a page.": {
+    "id": "dQ",
+    "message": "Only one <%s> element may exist on a page."
+  },
+  "The controlling service worker replied to amp-web-push with an unexpected value.": {
+    "id": "dR",
+    "message": "The controlling service worker replied to amp-web-push with an unexpected value."
+  },
+  "Paused page does not have a placeholder": {
+    "id": "dS",
+    "message": "Paused page does not have a placeholder"
+  },
+  "failed to attach shadow document for page": {
+    "id": "dT",
+    "message": "failed to attach shadow document for page"
+  },
+  "failed to fetch %s": {
+    "id": "dU",
+    "message": "failed to fetch %s"
+  },
+  "%s should contain a <script> child or a URL specified in [src]": {
+    "id": "dV",
+    "message": "%s should contain a <script> child or a URL specified in [src]"
+  },
+  "Failed to queue page due to error:": {
+    "id": "dW",
+    "message": "Failed to queue page due to error:"
+  },
+  "%s page list should be inside a <script> tag with type=\"application/json\"": {
+    "id": "dX",
+    "message": "%s page list should be inside a <script> tag with type=\"application/json\""
+  },
+  "failed to parse inline page list": {
+    "id": "dY",
+    "message": "failed to parse inline page list"
+  },
+  "error fetching page list from remote server": {
+    "id": "dZ",
+    "message": "error fetching page list from remote server"
+  },
+  "The data-url attribute is required for Pin widgets": {
+    "id": "e0",
+    "message": "The data-url attribute is required for Pin widgets"
+  },
+  "Invalid pinterest url: %s": {
+    "id": "e1",
+    "message": "Invalid pinterest url: %s"
+  },
+  "The data-url attribute is required for Save buttons": {
+    "id": "e2",
+    "message": "The data-url attribute is required for Save buttons"
+  },
+  "The data-media attribute is required for Save buttons": {
+    "id": "e3",
+    "message": "The data-media attribute is required for Save buttons"
+  },
+  "The data-description attribute is required for Save buttons": {
+    "id": "e4",
+    "message": "The data-description attribute is required for Save buttons"
+  },
+  "The data-href attribute is required for follow buttons": {
+    "id": "e5",
+    "message": "The data-href attribute is required for follow buttons"
+  },
+  "The data-label attribute is required for follow buttons": {
+    "id": "e6",
+    "message": "The data-label attribute is required for follow buttons"
+  },
+  "amp-next-page config must be specified": {
+    "id": "e7",
+    "message": "amp-next-page config must be specified"
+  },
+  "pages must be an array": {
+    "id": "e8",
+    "message": "pages must be an array"
+  },
+  "amp-next-page hideSelectors should be an array": {
+    "id": "e9",
+    "message": "amp-next-page hideSelectors should be an array"
+  },
+  "amp-next-page hideSelector value should be a string": {
+    "id": "ea",
+    "message": "amp-next-page hideSelector value should be a string"
+  },
+  "amp-next-page hideSelector %s not allowed": {
+    "id": "eb",
+    "message": "amp-next-page hideSelector %s not allowed"
+  },
+  "ampUrl must be a string": {
+    "id": "ec",
+    "message": "ampUrl must be a string"
+  },
+  "pages must be from the same origin as the current document": {
+    "id": "ed",
+    "message": "pages must be from the same origin as the current document"
+  },
+  "image must be a string": {
+    "id": "ee",
+    "message": "image must be a string"
+  },
+  "title must be a string": {
+    "id": "ef",
+    "message": "title must be a string"
+  },
+  "ampUrl resolved to a different origin from the origin of the current document": {
+    "id": "eg",
+    "message": "ampUrl resolved to a different origin from the origin of the current document"
+  },
+  "failed to attach shadow document for %s": {
+    "id": "eh",
+    "message": "failed to attach shadow document for %s"
+  },
+  "Request failure": {
+    "id": "ei",
+    "message": "Request failure"
+  },
+  "unknown property access type: %s": {
+    "id": "ej",
+    "message": "unknown property access type: %s"
+  },
+  "Verification errors must have a name property": {
+    "id": "ek",
+    "message": "Verification errors must have a name property"
+  },
+  "Verification errors must have a message property": {
+    "id": "el",
+    "message": "Verification errors must have a message property"
+  },
+  "Verification error name property must match a field name": {
+    "id": "em",
+    "message": "Verification error name property must match a field name"
+  },
+  "for 'autoscroll', 'nav [toolbar]' element must be set to overflow\n        'scroll' or 'auto' for 'autoscroll' to work.": {
+    "id": "en",
+    "message": "for 'autoscroll', 'nav [toolbar]' element must be set to overflow\n        'scroll' or 'auto' for 'autoscroll' to work."
+  },
+  "\"toolbar-target\" is required": {
+    "id": "eo",
+    "message": "\"toolbar-target\" is required"
+  },
+  "Could not find the toolbar-target element with an id: %s": {
+    "id": "ep",
+    "message": "Could not find the toolbar-target element with an id: %s"
+  },
+  "Should not expand while a longTask is already ongoing.": {
+    "id": "eq",
+    "message": "Should not expand while a longTask is already ongoing."
+  },
+  "Invalid story url": {
+    "id": "er",
+    "message": "Invalid story url"
+  },
+  "Unsupported access type: ": {
+    "id": "es",
+    "message": "Unsupported access type: "
+  },
+  "Unknown access type: %s": {
+    "id": "et",
+    "message": "Unknown access type: %s"
+  },
+  "\"login\" must be either a single URL or a map of URLs": {
+    "id": "eu",
+    "message": "\"login\" must be either a single URL or a map of URLs"
+  },
+  "Authorization failed: ": {
+    "id": "ev",
+    "message": "Authorization failed: "
+  },
+  "Pingback failed: ": {
+    "id": "ew",
+    "message": "Pingback failed: "
+  },
+  "Login URL is not configured: %s": {
+    "id": "ex",
+    "message": "Login URL is not configured: %s"
+  },
+  "Login URL is not ready: %s": {
+    "id": "ey",
+    "message": "Login URL is not ready: %s"
+  },
+  "Action for a button does not map to enum.": {
+    "id": "ez",
+    "message": "Action for a button does not map to enum."
+  },
+  "Found more than one images or none in slide!": {
+    "id": "eA",
+    "message": "Found more than one images or none in slide!"
+  },
+  "The element %s isn't supported in lightbox yet.": {
+    "id": "eB",
+    "message": "The element %s isn't supported in lightbox yet."
+  },
+  "Could not require external module %s. Did you import the bundle in the extension?": {
+    "id": "eC",
+    "message": "Could not require external module %s. Did you import the bundle in the extension?"
+  },
+  "Invalid config url.": {
+    "id": "eD",
+    "message": "Invalid config url."
+  },
+  "Invalid HTTP response": {
+    "id": "eE",
+    "message": "Invalid HTTP response"
+  },
+  "\"authorization\" URL must be specified": {
+    "id": "eF",
+    "message": "\"authorization\" URL must be specified"
+  },
+  "\"pingback\" URL must be specified": {
+    "id": "eG",
+    "message": "\"pingback\" URL must be specified"
+  },
+  "\"authorizationTimeout\" must be a number": {
+    "id": "eH",
+    "message": "\"authorizationTimeout\" must be a number"
+  },
+  "amp-ad sticky is deprecating empty attribute value, please use <amp-ad sticky=\"bottom\" instead": {
+    "id": "eI",
+    "message": "amp-ad sticky is deprecating empty attribute value, please use <amp-ad sticky=\"bottom\" instead"
+  },
+  "Invalid sticky ad type: %s": {
+    "id": "eJ",
+    "message": "Invalid sticky ad type: %s"
+  },
+  "multiple invocations of init without destroy!": {
+    "id": "eK",
+    "message": "multiple invocations of init without destroy!"
+  },
+  "element clientRect should intersects with root clientRect": {
+    "id": "eL",
+    "message": "element clientRect should intersects with root clientRect"
+  },
+  "Too many children": {
+    "id": "eM",
+    "message": "Too many children"
+  },
+  "Improper number of options. Expected %s <= options <= %s but got %s.": {
+    "id": "eN",
+    "message": "Improper number of options. Expected %s <= options <= %s but got %s."
+  },
+  "Invalid interactive response, expected { data: InteractiveResponseType, ...} but received %s": {
+    "id": "eO",
+    "message": "Invalid interactive response, expected { data: InteractiveResponseType, ...} but received %s"
+  },
+  "Duplicate interactive ID %s": {
+    "id": "eP",
+    "message": "Duplicate interactive ID %s"
+  },
+  "Service config does not have authorization Url": {
+    "id": "eQ",
+    "message": "Service config does not have authorization Url"
+  },
+  "pingbackUrl is null": {
+    "id": "eR",
+    "message": "pingbackUrl is null"
+  },
+  "iframe initialized called without iframe config type": {
+    "id": "eS",
+    "message": "iframe initialized called without iframe config type"
+  },
+  "\"iframeSrc\" URL must be specified": {
+    "id": "eT",
+    "message": "\"iframeSrc\" URL must be specified"
+  },
+  "\"iframeVars\" must be an array": {
+    "id": "eU",
+    "message": "\"iframeVars\" must be an array"
+  },
+  "LINKER_PARAM requires two params, name and id": {
+    "id": "eV",
+    "message": "LINKER_PARAM requires two params, name and id"
+  },
+  "Invalid page URL supplied to amp-next-page, pages must be from the same origin as the current document": {
+    "id": "eW",
+    "message": "Invalid page URL supplied to amp-next-page, pages must be from the same origin as the current document"
+  },
+  "page url must be a string": {
+    "id": "eX",
+    "message": "page url must be a string"
+  },
+  "page image must be a string": {
+    "id": "eY",
+    "message": "page image must be a string"
+  },
+  "page title must be a string": {
+    "id": "eZ",
+    "message": "page title must be a string"
+  },
+  "Dialog already opened": {
+    "id": "f0",
+    "message": "Dialog already opened"
+  },
+  "\"defaultResponse\" must be specified": {
+    "id": "f1",
+    "message": "\"defaultResponse\" must be specified"
+  },
+  "failed to restore access response: ": {
+    "id": "f2",
+    "message": "failed to restore access response: "
+  },
+  "failed to store access response: ": {
+    "id": "f3",
+    "message": "failed to store access response: "
+  },
+  "Cannot authorize for proxy origin": {
+    "id": "f4",
+    "message": "Cannot authorize for proxy origin"
+  },
+  "No authorization data available": {
+    "id": "f5",
+    "message": "No authorization data available"
+  },
+  "\"publicKey\" or \"publicKeyUrl\" must be specified": {
+    "id": "f6",
+    "message": "\"publicKey\" or \"publicKeyUrl\" must be specified"
+  },
+  "\"amp_authdata\" must be present in JWT": {
+    "id": "f7",
+    "message": "\"amp_authdata\" must be present in JWT"
+  },
+  "JWT fetch or validation failed: ": {
+    "id": "f8",
+    "message": "JWT fetch or validation failed: "
+  },
+  "\"exp\" field must be specified": {
+    "id": "f9",
+    "message": "\"exp\" field must be specified"
+  },
+  "token has expired: %s": {
+    "id": "fa",
+    "message": "token has expired: %s"
+  },
+  "\"aud\" field must be specified": {
+    "id": "fb",
+    "message": "\"aud\" field must be specified"
+  },
+  "\"aud\" must be \"%s\": %s": {
+    "id": "fc",
+    "message": "\"aud\" must be \"%s\": %s"
+  },
+  "\"vendor\" name must be specified": {
+    "id": "fd",
+    "message": "\"vendor\" name must be specified"
+  },
+  "Vendor has already been registered": {
+    "id": "fe",
+    "message": "Vendor has already been registered"
+  },
+  "Animation has infinite timeline, we can not seek to a relative position within an infinite timeline. Use \"time\" for seekTo or remove infinite iterations": {
+    "id": "ff",
+    "message": "Animation has infinite timeline, we can not seek to a relative position within an infinite timeline. Use \"time\" for seekTo or remove infinite iterations"
+  },
+  "Actions have not been defined in the service config": {
+    "id": "fg",
+    "message": "Actions have not been defined in the service config"
+  },
+  "Action \"login\" is not present in action map": {
+    "id": "fh",
+    "message": "Action \"login\" is not present in action map"
+  },
+  "Action \"subscribe\" is not present in action map": {
+    "id": "fi",
+    "message": "Action \"subscribe\" is not present in action map"
+  },
+  "LINKER_PARAM value checksum not valid": {
+    "id": "fj",
+    "message": "LINKER_PARAM value checksum not valid"
+  },
+  "Invalid linker_param value %s": {
+    "id": "fk",
+    "message": "Invalid linker_param value %s"
+  },
+  "Invalid version number %s": {
+    "id": "fl",
+    "message": "Invalid version number %s"
+  },
+  "Invalid linker key: %s": {
+    "id": "fm",
+    "message": "Invalid linker key: %s"
+  },
+  "Invalid linker key %s, value ignored": {
+    "id": "fn",
+    "message": "Invalid linker key %s, value ignored"
+  },
+  "Expected an element": {
+    "id": "fo",
+    "message": "Expected an element"
+  },
+  "Action URL is not configured: %s": {
+    "id": "fp",
+    "message": "Action URL is not configured: %s"
+  },
+  "Action URL is not ready: %s": {
+    "id": "fq",
+    "message": "Action URL is not ready: %s"
+  },
+  "Failed to merge result from AMP.setState().": {
+    "id": "fr",
+    "message": "Failed to merge result from AMP.setState()."
+  },
+  "One state action allowed per event.": {
+    "id": "fs",
+    "message": "One state action allowed per event."
+  },
+  "Unrecognized method: %s.%s": {
+    "id": "ft",
+    "message": "Unrecognized method: %s.%s"
+  },
+  "Please use the object-literal syntax, e.g. \"AMP.setState({foo: 'bar'})\" instead of \"AMP.setState(foo='bar')\".": {
+    "id": "fu",
+    "message": "Please use the object-literal syntax, e.g. \"AMP.setState({foo: 'bar'})\" instead of \"AMP.setState(foo='bar')\"."
+  },
+  "Maximum number of bindings reached (%s). Additional elements with bindings will be ignored.": {
+    "id": "fv",
+    "message": "Maximum number of bindings reached (%s). Additional elements with bindings will be ignored."
+  },
+  "%s: Binding to [%s] on <%s> is not allowed.": {
+    "id": "fw",
+    "message": "%s: Binding to [%s] on <%s> is not allowed."
+  },
+  "%s: Expression evaluation error in \"%s\". %s": {
+    "id": "fx",
+    "message": "%s: Expression evaluation error in \"%s\". %s"
+  },
+  "%s: Applying expression results (%s) failed with error,": {
+    "id": "fy",
+    "message": "%s: Applying expression results (%s) failed with error,"
+  },
+  "%s: \"%s\" is not a valid result for [class].": {
+    "id": "fz",
+    "message": "%s: \"%s\" is not a valid result for [class]."
+  },
+  "%s: \"%s\" is not a valid result for [%]": {
+    "id": "fA",
+    "message": "%s: \"%s\" is not a valid result for [%]"
+  },
+  "Failed to copy JSON (%s) with error: %s": {
+    "id": "fB",
+    "message": "Failed to copy JSON (%s) with error: %s"
+  },
+  "ownerDocument is null.": {
+    "id": "fC",
+    "message": "ownerDocument is null."
+  },
+  "Can't refresh <amp-state> without \"src\" attribute.": {
+    "id": "fD",
+    "message": "Can't refresh <amp-state> without \"src\" attribute."
+  },
+  "ampdoc must be visible before mutation.": {
+    "id": "fE",
+    "message": "ampdoc must be visible before mutation."
+  },
+  "<amp-state> must have an id.": {
+    "id": "fF",
+    "message": "<amp-state> must have an id."
+  },
+  "One of attributes [%s] is required": {
+    "id": "fG",
+    "message": "One of attributes [%s] is required"
+  },
+  "Invalid date attribute \"%s\"": {
+    "id": "fH",
+    "message": "Invalid date attribute \"%s\""
+  },
+  "Received unexpected message (%s, %s) from worker.": {
+    "id": "fI",
+    "message": "Received unexpected message (%s, %s) from worker."
+  },
+  "Received mismatched method (%s, %s), expected %s.": {
+    "id": "fJ",
+    "message": "Received mismatched method (%s, %s), expected %s."
+  },
+  "expected global \"bento\" or specific \"bento-date-countdown\" experiment to be enabled": {
+    "id": "fK",
+    "message": "expected global \"bento\" or specific \"bento-date-countdown\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-sidbar\" experiment to be enabled": {
+    "id": "fL",
+    "message": "expected global \"bento\" or specific \"bento-sidbar\" experiment to be enabled"
+  },
+  "'index' must be specified": {
+    "id": "fM",
+    "message": "'index' must be specified"
+  },
+  "expected global \"bento\" or specific \"bento-selector\" experiment to be enabled": {
+    "id": "fN",
+    "message": "expected global \"bento\" or specific \"bento-selector\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-date-display\" experiment to be enabled": {
+    "id": "fO",
+    "message": "expected global \"bento\" or specific \"bento-date-display\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-timeago\" experiment to be enabled": {
+    "id": "fP",
+    "message": "expected global \"bento\" or specific \"bento-timeago\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-fit-text\" experiment to be enabled": {
+    "id": "fQ",
+    "message": "expected global \"bento\" or specific \"bento-fit-text\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-app-banner\" experiment to be enabled": {
+    "id": "fR",
+    "message": "expected global \"bento\" or specific \"bento-app-banner\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-iframe\" experiment to be enabled": {
+    "id": "fS",
+    "message": "expected global \"bento\" or specific \"bento-iframe\" experiment to be enabled"
+  },
+  "<amp-iframe> elements must be positioned outside the first 75% of the viewport or 600px from the top (whichever is smaller): %s  Current position: %s. Min: %sPositioning rules don't apply for iframes that use `placeholder`.See https://github.com/ampproject/amphtml/blob/main/extensions/amp-iframe/amp-iframe.md#iframe-with-placeholder for details.": {
+    "id": "fT",
+    "message": "<amp-iframe> elements must be positioned outside the first 75% of the viewport or 600px from the top (whichever is smaller): %s  Current position: %s. Min: %sPositioning rules don't apply for iframes that use `placeholder`.See https://github.com/ampproject/amphtml/blob/main/extensions/amp-iframe/amp-iframe.md#iframe-with-placeholder for details."
+  },
+  "expected global \"bento\" or specific \"bento-list\" experiment to be enabled": {
+    "id": "fU",
+    "message": "expected global \"bento\" or specific \"bento-list\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-image-slider\" experiment to be enabled": {
+    "id": "fV",
+    "message": "expected global \"bento\" or specific \"bento-image-slider\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-gist\" experiment to be enabled": {
+    "id": "fW",
+    "message": "expected global \"bento\" or specific \"bento-gist\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-embedly-card\" experiment to be enabled": {
+    "id": "fX",
+    "message": "expected global \"bento\" or specific \"bento-embedly-card\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-mathml\" experiment to be enabled": {
+    "id": "fY",
+    "message": "expected global \"bento\" or specific \"bento-mathml\" experiment to be enabled"
+  },
+  "expected global \"bento\" or specific \"bento-stream-gallery\" experiment to be enabled": {
+    "id": "fZ",
+    "message": "expected global \"bento\" or specific \"bento-stream-gallery\" experiment to be enabled"
+  },
+  "Invalid threshold for sampling.": {
+    "id": "g0",
+    "message": "Invalid threshold for sampling."
+  },
+  "Could not expand URL \"%s\": %s": {
+    "id": "g1",
+    "message": "Could not expand URL \"%s\": %s"
+  },
+  "iframePing is only available on page view requests.": {
+    "id": "g2",
+    "message": "iframePing is only available on page view requests."
+  },
+  "Invalid batchInterval value: %s": {
+    "id": "g3",
+    "message": "Invalid batchInterval value: %s"
+  },
+  "Invalid batchInterval value: %s, interval value must be greater than %s ms.": {
+    "id": "g4",
+    "message": "Invalid batchInterval value: %s, interval value must be greater than %s ms."
+  },
+  "Should not start batchInterval without pointer": {
+    "id": "g5",
+    "message": "Should not start batchInterval without pointer"
+  },
+  "Start index %sin substr macro should be a number": {
+    "id": "g6",
+    "message": "Start index %sin substr macro should be a number"
+  },
+  "Length %s in substr macro should be a number": {
+    "id": "g7",
+    "message": "Length %s in substr macro should be a number"
+  },
+  "Third argument in MATCH macro must be a number >= 0": {
+    "id": "g8",
+    "message": "Third argument in MATCH macro must be a number >= 0"
+  },
+  "CALC macro - left operand must be a number": {
+    "id": "g9",
+    "message": "CALC macro - left operand must be a number"
+  },
+  "CALC macro - right operand must be a number": {
+    "id": "ga",
+    "message": "CALC macro - right operand must be a number"
+  },
+  "CALC macro - cannot divide by 0": {
+    "id": "gb",
+    "message": "CALC macro - cannot divide by 0"
+  },
+  "CALC macro - Invalid operation": {
+    "id": "gc",
+    "message": "CALC macro - Invalid operation"
+  },
+  "CONSENT_METADATA macro must contain a key": {
+    "id": "gd",
+    "message": "CONSENT_METADATA macro must contain a key"
+  },
+  "Macro \"%s\" already registered.": {
+    "id": "ge",
+    "message": "Macro \"%s\" already registered."
+  },
+  "Maximum depth reached while expanding variables. Please ensure that the variables are not recursive.": {
+    "id": "gf",
+    "message": "Maximum depth reached while expanding variables. Please ensure that the variables are not recursive."
+  },
+  "Variable with invalid format found: %s": {
+    "id": "gg",
+    "message": "Variable with invalid format found: %s"
+  },
+  "Error loading vendor config: ": {
+    "id": "gh",
+    "message": "Error loading vendor config: "
+  },
+  "Error loading remote config: ": {
+    "id": "gi",
+    "message": "Error loading remote config: "
+  },
+  "Error rewriting configuration: ": {
+    "id": "gj",
+    "message": "Error rewriting configuration: "
+  },
+  "The tag should contain only one <script> child.": {
+    "id": "gk",
+    "message": "The tag should contain only one <script> child."
+  },
+  "Inline or remote config should not overwrite vendor transport settings": {
+    "id": "gl",
+    "message": "Inline or remote config should not overwrite vendor transport settings"
+  },
+  "Inline configs are not allowed to specify transport iframe": {
+    "id": "gm",
+    "message": "Inline configs are not allowed to specify transport iframe"
+  },
+  "Remote configs are not allowed to specify transport iframe": {
+    "id": "gn",
+    "message": "Remote configs are not allowed to specify transport iframe"
+  },
+  "optout property is only available to vendor config.": {
+    "id": "go",
+    "message": "optout property is only available to vendor config."
+  },
+  "iframePing config is only available to vendor config.": {
+    "id": "gp",
+    "message": "iframePing config is only available to vendor config."
+  },
+  "Sessions can only be accessed with a vendor type.": {
+    "id": "gq",
+    "message": "Sessions can only be accessed with a vendor type."
+  },
+  "Invalid stored session value": {
+    "id": "gr",
+    "message": "Invalid stored session value"
+  },
+  "iframe transport was inadvertently deleted": {
+    "id": "gs",
+    "message": "iframe transport was inadvertently deleted"
+  },
+  "No friendly amp-ad ancestor element was found for amp-analytics tag with iframe transport.": {
+    "id": "gt",
+    "message": "No friendly amp-ad ancestor element was found for amp-analytics tag with iframe transport."
+  },
+  "Request not sent. Contents empty.": {
+    "id": "gu",
+    "message": "Request not sent. Contents empty."
+  },
+  "Origin of iframe request must not be equal to the document origin. See https://github.com/ampproject/amphtml/blob/main/docs/spec/amp-iframe-origin-policy.md for details.": {
+    "id": "gv",
+    "message": "Origin of iframe request must not be equal to the document origin. See https://github.com/ampproject/amphtml/blob/main/docs/spec/amp-iframe-origin-policy.md for details."
+  },
+  "\"ids\" is a required field for use of \"linkers\".": {
+    "id": "gw",
+    "message": "\"ids\" is a required field for use of \"linkers\"."
+  },
+  "Cannot have duplicate selectors in selectors list: %s": {
+    "id": "gx",
+    "message": "Cannot have duplicate selectors in selectors list: %s"
+  },
+  "expected global \"analytics-browser-events\" experiment to be enabled": {
+    "id": "gy",
+    "message": "expected global \"analytics-browser-events\" experiment to be enabled"
+  },
+  "Missing required selector on browser event trigger": {
+    "id": "gz",
+    "message": "Missing required selector on browser event trigger"
+  },
+  "Missing required selector on click trigger": {
+    "id": "gA",
+    "message": "Missing required selector on click trigger"
+  },
+  "Missing scrollSpec on scroll trigger.": {
+    "id": "gB",
+    "message": "Missing scrollSpec on scroll trigger."
+  },
+  "Boundaries are required for the scroll trigger to work.": {
+    "id": "gC",
+    "message": "Boundaries are required for the scroll trigger to work."
+  },
+  "Scroll trigger boundaries must be finite.": {
+    "id": "gD",
+    "message": "Scroll trigger boundaries must be finite."
+  },
+  "Timer interval specification required": {
+    "id": "gE",
+    "message": "Timer interval specification required"
+  },
+  "Bad timer interval specification": {
+    "id": "gF",
+    "message": "Bad timer interval specification"
+  },
+  "Bad maxTimerLength specification": {
+    "id": "gG",
+    "message": "Bad maxTimerLength specification"
+  },
+  "Bad timer specification": {
+    "id": "gH",
+    "message": "Bad timer specification"
+  },
+  "Bad timer start specification": {
+    "id": "gI",
+    "message": "Bad timer start specification"
+  },
+  "Bad timer stop specification": {
+    "id": "gJ",
+    "message": "Bad timer stop specification"
+  },
+  "Cannot track timer start": {
+    "id": "gK",
+    "message": "Cannot track timer start"
+  },
+  "Cannot track timer stop": {
+    "id": "gL",
+    "message": "Cannot track timer stop"
+  },
+  "Missing required selector on video trigger": {
+    "id": "gM",
+    "message": "Missing required selector on video trigger"
+  },
+  "video-seconds-played requires interval spec with non-zero value": {
+    "id": "gN",
+    "message": "video-seconds-played requires interval spec with non-zero value"
+  },
+  "video-percentage-played requires percentages spec.": {
+    "id": "gO",
+    "message": "video-percentage-played requires percentages spec."
+  },
+  "Percentages must be set in increments of %s with non-zero values": {
+    "id": "gP",
+    "message": "Percentages must be set in increments of %s with non-zero values"
+  },
+  "No target specified by video session event.": {
+    "id": "gQ",
+    "message": "No target specified by video session event."
+  },
+  "reportWhen and repeat are mutually exclusive.": {
+    "id": "gR",
+    "message": "reportWhen and repeat are mutually exclusive."
+  },
+  "ReportWhen should not be defined when eventType is \"hidden\"": {
+    "id": "gS",
+    "message": "ReportWhen should not be defined when eventType is \"hidden\""
+  },
+  "reportWhen value \"%s\" not supported.": {
+    "id": "gT",
+    "message": "reportWhen value \"%s\" not supported."
+  },
+  "waitFor for non-AMP elements must be none or null. Found %s": {
+    "id": "gU",
+    "message": "waitFor for non-AMP elements must be none or null. Found %s"
+  },
+  "waitFor value %s not supported": {
+    "id": "gV",
+    "message": "waitFor value %s not supported"
+  },
+  "Trigger type \"%s\" is not allowed in the %s": {
+    "id": "gW",
+    "message": "Trigger type \"%s\" is not allowed in the %s"
+  },
+  "Element \"%s\" not found": {
+    "id": "gX",
+    "message": "Element \"%s\" not found"
+  },
+  "Invalid query selector %s": {
+    "id": "gY",
+    "message": "Invalid query selector %s"
+  },
+  "Cannot have selectionMethod %s defined with an array selector.": {
+    "id": "gZ",
+    "message": "Cannot have selectionMethod %s defined with an array selector."
+  },
+  "Element \"%s\" is required to be an AMP element": {
+    "id": "h0",
+    "message": "Element \"%s\" is required to be an AMP element"
+  },
+  "Bad query selector.": {
+    "id": "h1",
+    "message": "Bad query selector."
+  },
+  "Must supply iframe URL to constructor!": {
+    "id": "h2",
+    "message": "Must supply iframe URL to constructor!"
+  },
+  "Trying to use non-existent frame": {
+    "id": "h3",
+    "message": "Trying to use non-existent frame"
+  },
+  "Long Task: Vendor: \"%s\"": {
+    "id": "h4",
+    "message": "Long Task: Vendor: \"%s\""
+  },
+  "Marked the %s frame as done, but there is no record of it existing.": {
+    "id": "h5",
+    "message": "Marked the %s frame as done, but there is no record of it existing."
+  },
+  "Trying to send message to non-existent frame": {
+    "id": "h6",
+    "message": "Trying to send message to non-existent frame"
+  },
+  "Event queue is missing for messages from %s to creative ID %s": {
+    "id": "h7",
+    "message": "Event queue is missing for messages from %s to creative ID %s"
+  },
+  "invalid visiblePercentageThresholds": {
+    "id": "h8",
+    "message": "invalid visiblePercentageThresholds"
+  },
+  "visiblePercentageThresholds entry length is not 2": {
+    "id": "h9",
+    "message": "visiblePercentageThresholds entry length is not 2"
+  },
+  "visiblePercentageThresholds entry is not valid number": {
+    "id": "ha",
+    "message": "visiblePercentageThresholds entry is not valid number"
+  },
+  "visiblePercentageThresholds entry invalid min/max value": {
+    "id": "hb",
+    "message": "visiblePercentageThresholds entry invalid min/max value"
+  },
+  "Attempted to enqueue malformed message for: %s": {
+    "id": "hc",
+    "message": "Attempted to enqueue malformed message for: %s"
+  },
+  "Attempt to refresh visible event before previous one resolve": {
+    "id": "hd",
+    "message": "Attempt to refresh visible event before previous one resolve"
+  },
+  "invalid visibility value: %s": {
+    "id": "he",
+    "message": "invalid visibility value: %s"
+  },
+  "expected global \"bento\" or specific \"bento-date-picker\" experiment to be enabled": {
+    "id": "hf",
+    "message": "expected global \"bento\" or specific \"bento-date-picker\" experiment to be enabled"
+  }
+}
