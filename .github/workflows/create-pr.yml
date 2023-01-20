@@ -1,0 +1,14 @@
+name: Create PR
+
+on:
+  workflow_dispatch:
+
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # title は直近のコミットメッセージで body は空
+      - run: gh pr create --draft --title "$(git log -1 --oneline --pretty=format:'%s')" --body "" --assignee $AUTHOR
+        env:
+          AUTHOR: ${{ github.event.pusher.name }}
