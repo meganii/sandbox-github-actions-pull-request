@@ -40,5 +40,6 @@ jobs:
 
       - name: create pull request
         run: gh pr create --title "$(git log -1 --oneline --pretty=format:'%s')" --body ""
+        run: gh pr create --base master --head fix/hoge_${{ env.CURRENT_DATETIME }} --title "Fix bug" --body ""
         env:
           GH_TOKEN: ${{ github.token }}
