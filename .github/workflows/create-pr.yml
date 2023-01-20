@@ -37,6 +37,7 @@ jobs:
         run: |
           git add date.txt
           git commit -m "Update"
+          git push 
 
       - name: create pull request
         run: gh pr create --head fix/hoge_${{ env.CURRENT_DATETIME }} --title "Fix bug" --body ""
