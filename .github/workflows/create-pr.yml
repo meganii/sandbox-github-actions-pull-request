@@ -23,10 +23,10 @@ jobs:
           git push -u origin fix/hoge_${{ env.CURRENT_DATETIME }}
 
       - name: Add date
-      - run: date >> date.txt
+        run: date >> date.txt
 
       - name: Add and commit
-      - run: |
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -N date.txt
@@ -34,10 +34,11 @@ jobs:
         continue-on-error: true
     
       - name: Commit files
-      - run: |
+        run: |
           git add date.txt
           git commit -m "Update"
 
-      - run: gh pr create --title "$(git log -1 --oneline --pretty=format:'%s')" --body ""
+      - name: create pull request
+        run: gh pr create --title "$(git log -1 --oneline --pretty=format:'%s')" --body ""
         env:
           GH_TOKEN: ${{ github.token }}
