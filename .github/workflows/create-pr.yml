@@ -45,5 +45,3 @@ jobs:
 
       - name: create pull request
         run: gh pr create --head fix/hoge_${{ env.CURRENT_DATETIME }} --title "Fix bug" --body ""
-        env:
-          GH_TOKEN: ${{ github.token }}
