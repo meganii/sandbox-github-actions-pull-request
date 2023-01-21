@@ -3,6 +3,9 @@ name: Create PR
 on:
   workflow_dispatch:
 
+permissions:
+  pull-requests: write
+
 jobs:
   pr:
     runs-on: ubuntu-latest
